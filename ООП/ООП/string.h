@@ -10,7 +10,7 @@ private:
 public:
 	String(char* _str);
 	String(int _size = 80);
-	String(const String& copyString)	
+	String(const String& copyString)	//конструктор копирования(обязательно с конст и с сылкой)
 	{
 		size = copyString.size;
 		str = new char[size + 1];
