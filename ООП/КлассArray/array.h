@@ -19,6 +19,5 @@ public:
 	int Max();
 	void Print();
 	
-
 	~Array();
 };

@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (класс.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  NumStor.cpp
+C:\RepozitoryOvsy\repozitory\ООП\класс\NumStor.cpp(35,20): warning C4018: <: несоответствие типов со знаком и без знака
+  класс.vcxproj -> C:\RepozitoryOvsy\repozitory\ООП\Debug\классNumberStorage.exe
