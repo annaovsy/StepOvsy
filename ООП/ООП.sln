@@ -7,7 +7,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ООП", "ООП\ООП.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "КлассArray", "КлассArray\КлассArray.vcxproj", "{338D9A45-29B3-4A4C-9B3F-14E2264192D8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "класс", "класс\класс.vcxproj", "{AE66BC27-CA77-4D6C-81A0-3889E7C904AA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "классNumberStorage", "класс\класс.vcxproj", "{AE66BC27-CA77-4D6C-81A0-3889E7C904AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{2D51945E-C2AD-48DE-8761-34AC13B660F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{AE66BC27-CA77-4D6C-81A0-3889E7C904AA}.Release|x64.Build.0 = Release|x64
 		{AE66BC27-CA77-4D6C-81A0-3889E7C904AA}.Release|x86.ActiveCfg = Release|Win32
 		{AE66BC27-CA77-4D6C-81A0-3889E7C904AA}.Release|x86.Build.0 = Release|Win32
+		{2D51945E-C2AD-48DE-8761-34AC13B660F5}.Debug|x64.ActiveCfg = Debug|x64
+		{2D51945E-C2AD-48DE-8761-34AC13B660F5}.Debug|x64.Build.0 = Debug|x64
+		{2D51945E-C2AD-48DE-8761-34AC13B660F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D51945E-C2AD-48DE-8761-34AC13B660F5}.Debug|x86.Build.0 = Debug|Win32
+		{2D51945E-C2AD-48DE-8761-34AC13B660F5}.Release|x64.ActiveCfg = Release|x64
+		{2D51945E-C2AD-48DE-8761-34AC13B660F5}.Release|x64.Build.0 = Release|x64
+		{2D51945E-C2AD-48DE-8761-34AC13B660F5}.Release|x86.ActiveCfg = Release|Win32
+		{2D51945E-C2AD-48DE-8761-34AC13B660F5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
