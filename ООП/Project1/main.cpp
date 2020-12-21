@@ -13,4 +13,6 @@ int main()
 
 	Date result3 = date + 365;
 	result3.Print();
+
+	cout << "OK!!!" << endl;
 }

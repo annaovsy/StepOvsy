@@ -6,7 +6,7 @@ Date::Date()
 {
 	_day = 1;
 	_month = 1;
-	_year = 2000;
+	_year = 2005;
 }
 
 Date::Date(int day, int month, int year)
