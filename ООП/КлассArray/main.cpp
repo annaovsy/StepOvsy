@@ -5,42 +5,76 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	Array arr;
-	
-	arr.GetSize();
-	arr.FillArr();
-	arr.Print();
 
-	//arr.SetSize();
+	cout << Array::counter << endl;
+	Array* a = new Array[10];
+	cout << Array::counter << endl;
+	delete[]a;
+	cout << Array::counter << endl;
+
+	//Array a(5);
+	//a.FillArr();
+	//a.Print();
+	//cout << endl;
+
+	//Array b(7);
+	//b.FillArr();
+	//b.Print();
+	//Array c = a++;	// ++
+	//a.Print();
+	//cout << endl;
+	//c.Print();
+	//cout << endl;
+	//a[0] = 0;	// []
+	//int c = a[0];
+	//a.Print();
+
+	//a(15);	
+	//cout << a << endl;	
+	//cin >> a;
+	//cout << a << endl;
+
+	//int size = a;	//приводим к типу int
+	//cout << size << endl;
+
+
+
+	//Array arr;
+	//
+	//arr.GetSize();
+	//arr.FillArr();
 	//arr.Print();
 
-	cout << "Отсортированный массив: " << endl;
-	arr.Sortr();
-	arr.Print();
+	////arr.SetSize();
+	////arr.Print();
 
-	int min = arr.Min();
-	cout << "\nМинимальный элемент: " << min << endl;
+	//cout << "Отсортированный массив: " << endl;
+	//arr.Sortr();
+	//arr.Print();
 
-	int max = arr.Max();
-	cout << "\nМаксимальный элемент: " << max << endl;
+	//int min = arr.Min();
+	//cout << "\nМинимальный элемент: " << min << endl;
 
-	//Array* matrix = new Array[5];
+	//int max = arr.Max();
+	//cout << "\nМаксимальный элемент: " << max << endl;
+
+	////Array* matrix = new Array[5];
+	////for (int i = 0; i < 5; i++)
+	////{
+	////	matrix[i].Print();
+	////}
+	//Array* matrix = new Array[5]
+	//{
+	//	{5},
+	//	{4},
+	//	{3},
+	//	{2},
+	//	{1}
+	//};
 	//for (int i = 0; i < 5; i++)
 	//{
 	//	matrix[i].Print();
 	//}
-	Array* matrix = new Array[5]
-	{
-		{5},
-		{4},
-		{3},
-		{2},
-		{1}
-	};
-	for (int i = 0; i < 5; i++)
-	{
-		matrix[i].Print();
-	}
 
 
 	

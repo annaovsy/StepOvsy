@@ -1,2 +1,11 @@
-﻿  main.cpp
-  КлассArray.vcxproj -> C:\RepozitoryOvsy\repozitory\ООП\Debug\КлассArray.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (КлассArray.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  array.cpp
+D:\Шаг Учеба\C++\github\StepOvsy\ООП\КлассArray\array.cpp(28,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Шаг Учеба\C++\github\StepOvsy\ООП\КлассArray\array.cpp(29,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Шаг Учеба\C++\github\StepOvsy\ООП\КлассArray\array.cpp(43,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Шаг Учеба\C++\github\StepOvsy\ООП\КлассArray\array.cpp(44,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Шаг Учеба\C++\github\StepOvsy\ООП\КлассArray\array.cpp(59,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Шаг Учеба\C++\github\StepOvsy\ООП\КлассArray\array.cpp(60,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Шаг Учеба\C++\github\StepOvsy\ООП\КлассArray\array.cpp(86,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Шаг Учеба\C++\github\StepOvsy\ООП\КлассArray\array.cpp(87,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  КлассArray.vcxproj -> D:\Шаг Учеба\C++\github\StepOvsy\ООП\Debug\КлассArray operator overloading.exe
