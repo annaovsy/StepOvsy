@@ -1,5 +1,4 @@
 #include "array.h"
-#include "singleton.h"
 #include <iostream>
 using namespace std;
 
@@ -7,51 +6,13 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 
-	Temp* main_ptr = new Temp;
-	main_ptr->TempFunction();
+	Array a(5);
+	a.FillArr();
+	a.Print();
+	cout << endl;
 
-	MyPtr pTemp(main_ptr);
-	pTemp->TempFunction();
-
-	Temp* arr = new Temp[3];
-	for (int i = 0; i < 3; i++)
-	{
-		arr[i].TempSet(i);
-	}
-	MyPtr arr_temp = arr;
-	arr_temp++;
-	arr_temp->TempFunction();
-
-	delete main_ptr;
-	delete[]arr;
-
-
-
-	//Singleton* p = Singleton::GetReference();
-
-	//cout << p->GetValue() << endl;
-	//p->SetValue(5);
-	//cout << p->GetValue() << endl;
-
-	//Singleton* p1 = Singleton::GetReference();
-	//cout << p1->GetValue() << endl;
-	//p1->SetValue(15);
-	//cout << p1->GetValue() << endl;
-
-
-	//cout << Array::counter << endl;
-	//Array* a = new Array[10];
-	//cout << Array::counter << endl;
-	//delete[]a;
-	//cout << Array::counter << endl;
-
-	//Array a(5);
-	//a.FillArr();
-	//a.Print();
-	//cout << endl;
-
-	//Array b(7);
-	//b.FillArr();
+	Array b(7);
+	b.FillArr();
 	//b.Print();
 	//Array c = a++;	// ++
 	//a.Print();
@@ -62,13 +23,12 @@ int main()
 	//int c = a[0];
 	//a.Print();
 
-	//a(15);	
-	//cout << a << endl;	
-	//cin >> a;
-	//cout << a << endl;
+	a(15);	
+	//a.Print();
+	cout << a << endl;	
+	cin >> a;
+	cout << a << endl;
 
-	//int size = a;	//приводим к типу int
-	//cout << size << endl;
 
 
 
