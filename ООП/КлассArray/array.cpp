@@ -3,10 +3,14 @@
 #include <cmath>
 using namespace std;
 
+int Array::counter = 0;
+
 Array::Array(int _size) :size{ _size }	//упрощенная запись
 {/*
 	size = _size;*/						//вместо этого
 	arr = new int[size] {0};
+
+	counter++;
 }
 
 Array::Array(const Array& copyArr)
@@ -208,6 +212,16 @@ void Array::FillArr()
 //	return max;
 //}
 
+Array::operator int()
+{
+	return size;
+}
+
+Array::operator int* ()
+{
+	return arr;
+}
+
 void Array::Print()
 {
 	for (int i = 0; i < size; i++)
@@ -220,6 +234,8 @@ void Array::Print()
 Array::~Array()
 {
 	delete[]arr;
+
+	counter--;
 }
 
 istream& operator>>(istream& os, Array& a) 
