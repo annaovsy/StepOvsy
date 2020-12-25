@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\RepozitoryOvsy\repozitory\ООП\classPoint\main.cpp(30,12): error C2086: std::string str: переопределение
+  point.cpp
+  Создание кода...
+C:\RepozitoryOvsy\repozitory\ООП\classPoint\main.cpp(21): message : см. объявление "str"

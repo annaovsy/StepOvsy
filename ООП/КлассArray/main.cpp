@@ -1,49 +1,67 @@
 #include "array.h"
-#include "singleton.h"
 #include <iostream>
+#include <stdarg.h> //для контроля разных типов аргументов
 using namespace std;
+
+template <typename T>
+T summa(T k, ...) //функция с неопределенным кол-вом параметров
+{
+	T* pk = &k;
+	T sm = 0;
+	for (; k != 0; k--)
+		sm += *(++pk);
+
+	return sm;
+}
+
+template <typename T>
+T summa2(T k, ...) //функция с неопределенным кол-вом параметров
+{
+	T* pk = &k;
+	T sm = 0;
+	
+	while(*pk)
+		sm += *(pk++);
+
+	return sm;
+}
+
+void summaAnyType(int count, bool typeof, ...)
+{
+	int sumi = 0;
+	double sumd = 0.0;
+
+	va_list arg_ptr;
+	va_start(arg_ptr, count);
+	va_arg(arg_ptr, bool);
+
+	while (count--)
+	{
+		(typeof) ? sumi += va_arg(arg_ptr, int) :
+				   sumd += va_arg(arg_ptr, double);
+	}
+	va_end(arg_ptr);
+	cout << sumi << endl;
+	cout << sumd << endl;
+}
 
 int main()
 {
 	setlocale(LC_ALL, "rus");
 
-	Temp* main_ptr = new Temp;
-	main_ptr->TempFunction();
+	int a = 1;
+	int b = 2;
+	int c = 3;
 
-	MyPtr pTemp(main_ptr);
-	pTemp->TempFunction();
+	summaAnyType(3, false, 1.0, 2.0, 3.0);
 
-	Temp* arr = new Temp[3];
-	for (int i = 0; i < 3; i++)
-	{
-		arr[i].TempSet(i);
-	}
-	MyPtr arr_temp = arr;
-	arr_temp++;
-	arr_temp->TempFunction();
+	//cout << summa(1, a) << endl;
+	//cout << summa(2, a, b) << endl;
+	//cout << summa((double)3, 1.0, 2.0, 3.0) << endl << endl;
 
-	delete main_ptr;
-	delete[]arr;
-
-
-
-	//Singleton* p = Singleton::GetReference();
-
-	//cout << p->GetValue() << endl;
-	//p->SetValue(5);
-	//cout << p->GetValue() << endl;
-
-	//Singleton* p1 = Singleton::GetReference();
-	//cout << p1->GetValue() << endl;
-	//p1->SetValue(15);
-	//cout << p1->GetValue() << endl;
-
-
-	//cout << Array::counter << endl;
-	//Array* a = new Array[10];
-	//cout << Array::counter << endl;
-	//delete[]a;
-	//cout << Array::counter << endl;
+	//cout << summa2(a,0) << endl;
+	//cout << summa2(a, b, 0) << endl;
+	//cout << summa2(1.0, 2.0, 3.0, (double)0) << endl;
 
 	//Array a(5);
 	//a.FillArr();
@@ -63,12 +81,11 @@ int main()
 	//a.Print();
 
 	//a(15);	
+	////a.Print();
 	//cout << a << endl;	
 	//cin >> a;
 	//cout << a << endl;
 
-	//int size = a;	//приводим к типу int
-	//cout << size << endl;
 
 
 
