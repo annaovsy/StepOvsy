@@ -20,9 +20,6 @@ public:
 	void Show();
 
 	~var();
-
-
-
 };
 
 class Airplane
