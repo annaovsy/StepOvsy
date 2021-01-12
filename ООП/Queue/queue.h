@@ -2,26 +2,40 @@
 #include <iostream>
 using namespace std;
 
-class QueueRing
+class QueueRing	//кольцевая очередь
 {
 private:
-	int* Wait;  //очередь
+	int* wait;  //очередь
 	int MaxQueueLength;  // максимальный размер очереди
-	int QueueLength;  //текущий размер очереди
-	int MaxQueueLength;  // максимальный размер очереди
+	int QueueLength = 0;  //текущий размер очереди
 
 public:
-	QueueRing(int m);
+	QueueRing(int size = 5);
 	~QueueRing();
 
-	void Push(int c); //добавление
+	void Push(int value); //добавление
 	bool Pop();	//извлечение
 	void Clear();
 	bool IsEmpty();
 	bool IsFull();
 	int GetCount(); //количество элементов
-	void Show();
+	
+	friend ostream& operator <<(ostream&, const QueueRing&);
 
+};
 
+class Game
+{
+private:
+	int countWaits = 3;
+	QueueRing* waits;
 
+	void FillWaits();
+public:
+	Game(int);
+	~Game();
+
+	void StartGame();
+
+	friend ostream& operator <<(ostream&, const Game&);
 };
