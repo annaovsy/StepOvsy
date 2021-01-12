@@ -1,5 +1,5 @@
 ﻿  main.cpp
   st.cpp
-  Создание кода...
-C:\RepozitoryOvsy\repozitory\ООП\classStudent\st.cpp(79,20): warning C4018: <: несоответствие типов со знаком и без знака
-  classStudent.vcxproj -> C:\RepozitoryOvsy\repozitory\ООП\Debug\classStudent.exe
+D:\Шаг Учеба\C++\github\StepOvsy\ООП\classStudent\st.cpp(79,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  classStudent.vcxproj -> D:\Шаг Учеба\C++\github\StepOvsy\ООП\Debug\classStudent.exe
