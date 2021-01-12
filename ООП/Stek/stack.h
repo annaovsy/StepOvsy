@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-class Steck
+class Steck	// стек - динамическая структура данных
 {
 private:
 	enum{Empty = -1, Full = 20}; //нижняя и верхняя границы стека
