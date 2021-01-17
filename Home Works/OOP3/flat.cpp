@@ -2,49 +2,19 @@
 #include <iostream>
 using namespace std;
 
-Overcoat::Overcoat(const char* _type, int _coast) : coast(_coast)
+
+Flat::Flat(int _area, int _coast) :area(_area), coast(_coast)
+{}
+
+Flat& Flat::operator=(Flat & ob2)
 {
-	size = strlen(_type) + 1;
-	type = new char[size];
-	strcpy_s(type, size, _type);
-}
-
-void Overcoat::SetType(const char* _type)
-{
-	if (_type == NULL)
-		return;
-
-	strcpy_s(type, size, _type);
-}
-
-//Overcoat& Overcoat::operator>(Overcoat& ob2)
-//{
-//	if()
-//	coast = ob2.coast;
-//}
-
-Overcoat& Overcoat::operator=(Overcoat& ob2)
-{
-	if (type != nullptr)
-	{
-		delete[]type;
-	}
-	type = new char[strlen(type) + 1];
-	strcpy_s(type, strlen(type) + 1, type);
-
-	type = ob2.type;
-	coast= ob2.coast;
+	area = ob2.area;
+	coast = ob2.coast;
 	return *this;
 }
 
-void Overcoat::Print()
+void Flat::Print()
 {
-	cout << "Тип : " << type << endl;
-	cout << "Стоимость : " << coast << endl;
-}
-
-Overcoat::~Overcoat()
-{
-	if (type)
-		delete[]type;
+	cout << "Площадь квартиры : " << area << endl;
+	cout << "Стоимость квартиры : " << coast << endl; 
 }
