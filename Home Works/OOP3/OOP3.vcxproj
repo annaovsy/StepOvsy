@@ -141,10 +141,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="flat.h" />
+    <ClInclude Include="overcoat.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="flat.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="overcoat.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

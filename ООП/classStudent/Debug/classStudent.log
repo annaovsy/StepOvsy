@@ -1,5 +1,1 @@
-﻿  main.cpp
-  st.cpp
-D:\Шаг Учеба\C++\github\StepOvsy\ООП\classStudent\st.cpp(79,20): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
-  classStudent.vcxproj -> D:\Шаг Учеба\C++\github\StepOvsy\ООП\Debug\classStudent.exe
+﻿  classStudent.vcxproj -> D:\Шаг Учеба\C++\github\StepOvsy\ООП\Debug\classStudent.exe

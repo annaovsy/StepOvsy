@@ -13,7 +13,7 @@ void Steck::Push(char c)
 
 char Steck::Pop()
 {
-	if (!-IsEmpty())
+	if (!IsEmpty())
 		return st[top--];
 
 	else 

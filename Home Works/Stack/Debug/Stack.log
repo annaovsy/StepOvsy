@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Stack\main.cpp(7,27): error C2664: 'Stack::Stack(char *,int)': cannot convert argument 1 from 'const char [8]' to 'char *'
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Stack\main.cpp(7,14): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Stack\stack.h(12,2): message : see declaration of 'Stack::Stack'
+  stack.cpp
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Stack\stack.cpp(7,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
