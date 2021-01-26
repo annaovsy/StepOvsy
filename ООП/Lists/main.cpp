@@ -8,14 +8,14 @@ int main()
 	List<int> list;
 	for (int i = 0; i < 5; i++)
 	{
-		list.AddToHead(i);
+		list.AddToTail(i);
 	}
 	list.PrintList();
 
-	list.AddToIndex(9, 2);
-	list.PrintList();
-	list.RemoveByIndex(3);
-	list.PrintList();
+	//list.AddToIndex(9, 2);
+	//list.PrintList();
+	//list.RemoveByIndex(3);
+	//list.PrintList();
 
 	//for (int i = 0; i < 6; i++)
 	//{
