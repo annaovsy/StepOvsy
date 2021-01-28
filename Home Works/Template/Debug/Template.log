@@ -1,0 +1,11 @@
+﻿  main.cpp
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(33,17): error C2039: 'GetAt': is not a member of 'Array<int>'
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(25): message : see declaration of 'Array<int>'
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(38,30): error C2664: 'Student::Student(char *,int,double)': cannot convert argument 1 from 'const char [7]' to 'char *'
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(38,13): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(14,2): message : see declaration of 'Student::Student'
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(39,32): error C2664: 'Student::Student(char *,int,double)': cannot convert argument 1 from 'const char [7]' to 'char *'
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(39,14): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(14,2): message : see declaration of 'Student::Student'
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(41,11): error C2039: 'SetAt': is not a member of 'Array<Student>'
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(36): message : see declaration of 'Array<Student>'

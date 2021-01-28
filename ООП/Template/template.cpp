@@ -9,7 +9,7 @@ int Array<T>::GetSize()
 }
 
 template<class T>
-Array<T>::Array() :data(nullptr),size(0)
+Array<T>::Array() :data(nullptr), size(0)
 {
 }
 
@@ -36,7 +36,7 @@ void Array<T>::SetSize(int size, int grow)
 		delete[]data;
 
 	data = temp;
-	   
+
 	/*if (size > this->size)
 	{
 		T* temp = new T[size];

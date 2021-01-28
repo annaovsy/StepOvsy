@@ -11,7 +11,7 @@ class Student
 	double averMark;
 public:
 	Student() {};
-	Student(char* pName, int pAge, double mark): age(pAge), averMark(mark)
+	Student(char* pName, int pAge, double mark) : age(pAge), averMark(mark)
 	{
 		if (pName)
 		{
@@ -35,10 +35,10 @@ int main()
 
 	Array<Student> students;
 	students.SetSize(5);
-	Student st("Ivanov",25,10);
+	Student st("Ivanov", 25, 10);
 	Student st2("Petrov", 25, 9.3);
 
-	students.SetAt(st, 0);	
+	students.SetAt(st, 0);
 	students.Add(st2);
 
 	string str1("1234a");
