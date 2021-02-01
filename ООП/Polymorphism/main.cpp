@@ -42,18 +42,29 @@ int main(int argc, char* argv[])
 
 	Figure* ptr;
 	Figure obFigure;
-	Rectangle obRect(10,11);
-	Circle obCircle(12.5);
-	Triangle obTriangle(11, 15.5);
+	//Rectangle obRect(10,11);
+	//Circle obCircle(12.5);
+	//Triangle obTriangle(11, 15.5);
 
-	if (argc < 1)
+	string str = argv[1];
+	if (argc <= 1)
 	{
-		return 0;
+		return -1;
 	}
 
-	if(argv)
-
-
+	if (str == "1")
+	{
+		ptr = new Rectangle(10, 11);
+	}
+	else if (str == "2")
+	{
+		ptr = new Circle(10.2);
+	}
+	else if (str == "3")
+	{
+		ptr = new Triangle(11, 15.5);
+	}
+	cout << "Area = " << ptr->GetArea() << endl;
 	
 
 	//Base* ptrB;	//указатель на базовый класс

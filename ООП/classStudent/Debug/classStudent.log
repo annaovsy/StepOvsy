@@ -1,1 +1,5 @@
-﻿  classStudent.vcxproj -> D:\Шаг Учеба\C++\github\StepOvsy\ООП\Debug\classStudent.exe
+﻿  main.cpp
+  st.cpp
+C:\RepozitoryOvsy\ООП\classStudent\st.cpp(79,20): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  classStudent.vcxproj -> C:\RepozitoryOvsy\ООП\Debug\classStudent.exe

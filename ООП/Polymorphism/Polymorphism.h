@@ -4,15 +4,7 @@ using namespace std;
 
 class Figure
 {
-//	double a, b;
-//
-//public:
-//	//Figure(double _a, double _b) : a(_a), b(_b) {};
-//	//void SetA(double _a) { a = _a; }
-//	//void SetB(double _b) { b = _b; }
-//	//double GetA() { return a; }
-//	//double GetB() { return b; }
-
+public:
 	virtual double GetArea()
 	{
 		cout << "!!!figure!!!";

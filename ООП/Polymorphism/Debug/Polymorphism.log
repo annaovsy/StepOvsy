@@ -1,3 +1,5 @@
 ﻿  main.cpp
 C:\RepozitoryOvsy\ООП\Polymorphism\main.cpp(41,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Polymorphism.vcxproj -> C:\RepozitoryOvsy\ООП\Debug\Polymorphism.exe
+C:\RepozitoryOvsy\ООП\Polymorphism\Polymorphism.h(24): error C4716: Rectangle::GetArea: должна возвращать значение
+C:\RepozitoryOvsy\ООП\Polymorphism\Polymorphism.h(38): error C4716: Circle::GetArea: должна возвращать значение
+C:\RepozitoryOvsy\ООП\Polymorphism\Polymorphism.h(52): error C4716: Triangle::GetArea: должна возвращать значение

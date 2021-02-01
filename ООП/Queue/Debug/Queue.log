@@ -1,4 +1,7 @@
 ﻿  deque.cpp
   main.cpp
+  queue.cpp
+  QueuePr.cpp
   Создание кода...
-  Queue.vcxproj -> C:\RepozitoryOvsy\repozitory\ООП\Debug\Queue.exe
+C:\RepozitoryOvsy\ООП\Queue\queue.cpp(53): warning C4715: QueueRing::Pop: значение возвращается не при всех путях выполнения
+  Queue.vcxproj -> C:\RepozitoryOvsy\ООП\Debug\Queue.exe
