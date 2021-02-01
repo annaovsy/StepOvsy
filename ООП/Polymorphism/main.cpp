@@ -65,7 +65,7 @@ int main(int argc, char* argv[])
 		ptr = new Triangle(11, 15.5);
 	}
 	cout << "Area = " << ptr->GetArea() << endl;
-	
+	cout << "OK!" << endl;
 
 	//Base* ptrB;	//указатель на базовый класс
 	//Base obB;	//объект базового класса
