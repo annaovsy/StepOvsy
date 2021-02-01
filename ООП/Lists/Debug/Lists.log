@@ -1,4 +1,4 @@
 ﻿  list.cpp
   main.cpp
-  Generating Code...
-  Lists.vcxproj -> D:\Шаг Учеба\C++\github\StepOvsy\ООП\Debug\Lists.exe
+  Создание кода...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(876,5): error MSB6006: "link.exe" завершилась с кодом 1.

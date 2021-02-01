@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\RepozitoryOvsy\ООП\Polymorphism\main.cpp(41,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Polymorphism.vcxproj -> C:\RepozitoryOvsy\ООП\Debug\Polymorphism.exe
