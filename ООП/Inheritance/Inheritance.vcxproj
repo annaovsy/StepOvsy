@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="HomeAnimals.h" />
     <ClInclude Include="inheritance.h" />
+    <ClInclude Include="MultipleInheritance.h" />
     <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <ItemGroup>
