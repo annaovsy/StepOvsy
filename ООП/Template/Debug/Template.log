@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\RepozitoryOvsy\ООП\Template\main.cpp(38,30): error C2664: "Student::Student(Student &&)": невозможно преобразовать аргумент 1 из "const char [7]" в "char *"
+C:\RepozitoryOvsy\ООП\Template\main.cpp(38,13): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+C:\RepozitoryOvsy\ООП\Template\main.cpp(14,2): message : см. объявление "Student::Student"
+C:\RepozitoryOvsy\ООП\Template\main.cpp(39,32): error C2664: "Student::Student(Student &&)": невозможно преобразовать аргумент 1 из "const char [7]" в "char *"
+C:\RepozitoryOvsy\ООП\Template\main.cpp(39,14): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+C:\RepozitoryOvsy\ООП\Template\main.cpp(14,2): message : см. объявление "Student::Student"
+  template.cpp
+  Создание кода...
