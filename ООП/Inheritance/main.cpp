@@ -5,7 +5,7 @@
 using namespace std;
 
 int main()
-{
+{  
 	DerivedTest* der = new DerivedTest(10, 20, 45.2);
 	der->SetVal(10);
 	der->ShowVal();
