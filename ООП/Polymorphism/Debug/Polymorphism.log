@@ -1,5 +1,6 @@
 ﻿  main.cpp
 C:\RepozitoryOvsy\ООП\Polymorphism\main.cpp(41,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\RepozitoryOvsy\ООП\Polymorphism\main.cpp(67): error C4703: используется потенциально неинициализированная локальная переменная-указатель "ptr"
 C:\RepozitoryOvsy\ООП\Polymorphism\Polymorphism.h(24): error C4716: Rectangle::GetArea: должна возвращать значение
 C:\RepozitoryOvsy\ООП\Polymorphism\Polymorphism.h(38): error C4716: Circle::GetArea: должна возвращать значение
 C:\RepozitoryOvsy\ООП\Polymorphism\Polymorphism.h(52): error C4716: Triangle::GetArea: должна возвращать значение
