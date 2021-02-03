@@ -24,6 +24,9 @@
     <ClInclude Include="HomeAnimals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MultipleInheritance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

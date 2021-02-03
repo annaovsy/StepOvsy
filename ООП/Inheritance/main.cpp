@@ -1,14 +1,30 @@
 #include "inheritance.h"
 #include "HomeAnimals.h"
 #include "Vehicle.h"
+#include "MultipleInheritance.h"
 #include <iostream>
 using namespace std;
 
 int main()
 {
-	DerivedTest* der = new DerivedTest(10, 20, 45.2);
-	der->SetVal(10);
-	der->ShowVal();
+	Derived1 der1;
+	der1.i = 50;
+	der1.ShowI();
+
+	Derived2 der2;
+	der2.i = 30;
+	der2.ShowI();
+
+	Derived3 der3;
+	der3.i = 100; //доступ к базовому классу у множественного наследования только через virtual
+	der3.SetD3(20);
+	der3.ShowD3();
+
+
+
+	//DerivedTest* der = new DerivedTest(10, 20, 45.2);
+	//der->SetVal(10);
+	//der->ShowVal();
 
 	//Derived der(15,25);
 	////der.SetXY(10, 20, 9.2);
