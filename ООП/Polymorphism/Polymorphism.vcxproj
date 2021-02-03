@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Base.h" />
     <ClInclude Include="Polymorphism.h" />
   </ItemGroup>
   <ItemGroup>
