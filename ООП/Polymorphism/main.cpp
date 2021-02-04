@@ -1,4 +1,5 @@
 #include"Polymorphism.h"
+#include "Base.h"
 #include<iostream>
 #include <ctime>
 using namespace std;
@@ -40,32 +41,34 @@ int main(int argc, char* argv[])
 {
 	srand(time(NULL));
 
-	Figure* ptr;
-	Figure obFigure;
-	//Rectangle obRect(10,11);
-	//Circle obCircle(12.5);
-	//Triangle obTriangle(11, 15.5);
+	DerivedData* der = new DerivedData(5, 7);
+	delete der;
+	//Figure* ptr;
+	//Figure obFigure;
+	////Rectangle obRect(10,11);
+	////Circle obCircle(12.5);
+	////Triangle obTriangle(11, 15.5);
 
-	string str = argv[1];
-	if (argc <= 1)
-	{
-		return -1;
-	}
+	//string str = argv[1];
+	//if (argc <= 1)
+	//{
+	//	return -1;
+	//}
 
-	if (str == "1")
-	{
-		ptr = new Rectangle(10, 11);
-	}
-	else if (str == "2")
-	{
-		ptr = new Circle(10.2);
-	}
-	else if (str == "3")
-	{
-		ptr = new Triangle(11, 15.5);
-	}
-	cout << "Area = " << ptr->GetArea() << endl;
-	cout << "OK!" << endl;
+	//if (str == "1")
+	//{
+	//	ptr = new Rectangle(10, 11);
+	//}
+	//else if (str == "2")
+	//{
+	//	ptr = new Circle(10.2);
+	//}
+	//else if (str == "3")
+	//{
+	//	ptr = new Triangle(11, 15.5);
+	//}
+	//cout << "Area = " << ptr->GetArea() << endl;
+	//cout << "OK!" << endl; 
 
 	//Base* ptrB;	//указатель на базовый класс
 	//Base obB;	//объект базового класса

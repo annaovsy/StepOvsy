@@ -2,34 +2,60 @@
 #include <iostream>
 using namespace std;
 
-template <class T>
+//template <class T>
 struct Node
 {
-	T value;
+	int value;
 	Node* next;
+	Node* prev;
 };
 
-template <class T>
+//template <class T>
 class ListTemplate
 {
-	Node<T>* head, * tail;
+protected:
+	Node* head, * tail;
 
 public:
-	void Push(T val);
-	T Pop();
+	virtual void Push(int val);
+	virtual bool Pop(int &val) = 0;
 
 };
 
-template <class T>
-class Stack : public ListTemplate<T>
+//template <class T>
+class Stack : public ListTemplate
 {
 
 public:
-	T Pop();
+	bool Pop(int& val)
+	{
+		if (!head)
+			return false;
+		Node* temp = head;
+		head = head->next;
+		head->prev = nullptr;
+		int tempVal = temp->value;
+		delete temp;
+		val = tempVal;
+		return true;
+	}
 };
 
-template <class T>
-class Queue :public ListTemplate<T>
+//template <class T>
+class Queue :public ListTemplate
 {
-
+public:
+	bool Pop(int& val)
+	{
+		if (!head)
+			return false;
+		Node* temp = tail;
+		tail = tail->prev;
+		tail->next = nullptr;
+		int tempVal = temp->value;
+		delete temp;
+		val = tempVal;
+		return true;
+	}
 };
+
