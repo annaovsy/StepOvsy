@@ -5,11 +5,11 @@ using namespace std;
 
 class Student //С++
 {
+public:
 	string name;
 	int age;
 	double averMark;
 
-public:
 	Student() {};
 	Student(string _name, int _age, double _averMark)
 	{
@@ -32,7 +32,7 @@ public:
 		}
 		else
 		{
-			ofstream fileOut(filename, ios::out | ios::binary); //для бинарных файлов
+			ofstream fileOut(filename, ios::binary | ios::app); //для бинарных файлов
 			if (!fileOut.is_open())
 				return false;
 			int countBytes = name.size(); //сколько места занимает имя
