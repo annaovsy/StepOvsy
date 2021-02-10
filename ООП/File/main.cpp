@@ -86,7 +86,7 @@ public:
 
 	void Print()
 	{
-		std::cout << "Имя\tВозраст\tСредний бал\n";
+		std::cout << "Имя\tВозраст\tСредний бал\n\n";
 		std::cout << name << "\t" << age << "\t" << averMark;
 	}
 
