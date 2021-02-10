@@ -4,7 +4,7 @@
 using std::string;
 using namespace std;
 
-class Student
+class Student //на С
 {
 	string name;
 	int age;
