@@ -1,5 +1,6 @@
 #include "FinancialManagementSystem.h"
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 DebitCard::DebitCard(int _sumTotal):
@@ -57,33 +58,59 @@ void DebitCard::SetExpenses()
 
 bool DebitCard::ExpenseReportFile(const char* filename)
 {
-	int first, second, third;
+	string first, second, third;
+	//int first, second, third;
 	if (productCategory > entertainmentCategory && productCategory > travelCategory)
 	{
-		first = productCategory;
+		first = "Продукты";
 		if (entertainmentCategory > travelCategory)
 		{
-			second = entertainmentCategory;
-			third = travelCategory;
+			second = "Развлечения";
+			third = "Путешествия";
 		}
 		else
 		{
-			second = travelCategory;
-			third = entertainmentCategory;
+			second = "Путешествия";
+			third = "Развлечения";
 		}			
 	}
-	else if(productCategory > entertainmentCategory && productCategory > travelCategory  )
+	else if (entertainmentCategory > productCategory && entertainmentCategory > travelCategory)
+	{
+		first = "Развлечения";
+		if (productCategory > travelCategory)
+		{
+			second = "Продукты";
+			third = "Путешествия";
+		}
+		else
+		{
+			second = "Путешествия";
+			third = "Продукты";
+		}
+	}
+	else if (travelCategory > productCategory && travelCategory > entertainmentCategory)
+	{
+		first = "Путешествия";
+		if (productCategory > entertainmentCategory)
+		{
+			second = "Продукты";
+			third = "Развлечения";
+		}
+		else
+		{
+			second = "Развлечения";
+			third = "Продукты";
+		}
+	}
 
-	if (productCategory > entertainmentCategory)
-		productCategory = first;
-	FILE* file = fopen(filename, "w"); //открываем файл
-	if (!file)
+	ofstream fileOut(filename, ios::out); //вывод в файл
+	if (!fileOut.is_open())
 		return false;
-	fprintf(file, "Отчет затрат по категориям:"); 
-	fprintf(file, "%s\t%d\t%.2lf\n", name.c_str(), age, averMark);
-
-	fclose(file); //закрываем файл
-
+	fileOut << "Топ 3 затрат по категорям:" << endl;
+	fileOut << "1. " << first<< endl;
+	fileOut << "2. " << second << endl;
+	fileOut << "3. " << third << endl;
+	fileOut.close();
 	return true;
 }
 

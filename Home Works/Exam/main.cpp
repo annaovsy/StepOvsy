@@ -4,16 +4,18 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "rus");
+	setlocale(LC_ALL, "rus"); 
 
 	DebitCard card;
 	card.Show();
 
-	card.SetExpenses();
+	
 	card.SetRefill();
 	card.SetExpenses();
-
-	card.Show();
+	card.SetExpenses();
+	card.SetExpenses();
+	//card.Show();
+	card.ExpenseReportFile("Top.txt");
 
 
 
