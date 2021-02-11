@@ -1,3 +1,5 @@
-﻿  main.cpp
-C:\RepozitoryOvsy\ООП\TEMPLATEinheritance\main.cpp(24,6): error C2086: int val: переопределение
-C:\RepozitoryOvsy\ООП\TEMPLATEinheritance\main.cpp(13): message : см. объявление "val"
+﻿  ListTemplate.cpp
+  main.cpp
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\TEMPLATEinheritance\main.cpp(24,6): error C2086: int val: переопределение
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\TEMPLATEinheritance\main.cpp(13): message : см. объявление "val"
+  Создание кода...

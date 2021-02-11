@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\Try-throw-catch\main.cpp(29,39): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+  Try-throw-catch.vcxproj -> C:\Users\Взрослая академия\source\repos\StepOvsy\ООП\Debug\Try-throw-catch.exe

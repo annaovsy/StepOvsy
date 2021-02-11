@@ -1,7 +1,7 @@
 ﻿  main.cpp
-C:\RepozitoryOvsy\ООП\ООП\string.h(17,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\ООП\string.h(17,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   string.cpp
-C:\RepozitoryOvsy\ООП\ООП\string.h(17,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\RepozitoryOvsy\ООП\ООП\string.cpp(9,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\ООП\string.h(17,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\ООП\string.cpp(9,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Создание кода...
-  ООП.vcxproj -> C:\RepozitoryOvsy\ООП\Debug\ООП.exe
+  ООП.vcxproj -> C:\Users\Взрослая академия\source\repos\StepOvsy\ООП\Debug\ООП.exe
