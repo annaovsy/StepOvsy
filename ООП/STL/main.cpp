@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include "STLlist.h"
 using namespace std;
 
 class Demo
@@ -61,7 +62,7 @@ void Change(vector<int> &vect) //если передаем не по ссылке, то ничего не поменя
 
 int main()
 {
-	//vector - массив
+	////vector - массив
 	//vector<int> vect;  //объявили вектор для целых чисел
 	//vector<double> dVect(5);  //вектор на 5 элементов
 	//vector<char> cVect(5, 'x');
@@ -97,15 +98,16 @@ int main()
 	//sort(vect.begin(), vect.end()); //сортирует от начала до конца, меняет элементы местами
 	//ShowVector(vect);
 
-	vector <Demo> testV;
-	for (int i = 0; i < 10; i++)
-	{
-		Demo temp(rand());
-		testV.push_back(temp);
-	}
-	ShowDemoVect(testV);
-	sort(testV.begin(), testV.end());
-	ShowDemoVect(testV);
+	//vector <Demo> testV;
+	//for (int i = 0; i < 10; i++)
+	//{
+	//	Demo temp(rand());
+	//	testV.push_back(temp);
+	//}
+	//ShowDemoVect(testV);
+	//sort(testV.begin(), testV.end());
+	//ShowDemoVect(testV);
 	 
+	TestList();
 
 }
