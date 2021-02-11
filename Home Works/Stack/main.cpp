@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-	Stack stack("[]56][]", 9);
+	//Stack stack("[]56][]", 9);
 
-	char a;
-	while (!stack.IsFull())
-	{
-		stack.Push(a);
-	}
-	while (a = stack.Pop())
-	{
-		cout << a << " ";
-	}
-	cout << endl;
+	//char a;
+	//while (!stack.IsFull())
+	//{
+	//	stack.Push(a);
+	//}
+	//while (a = stack.Pop())
+	//{
+	//	cout << a << " ";
+	//}
+	//cout << endl;
 
 
 

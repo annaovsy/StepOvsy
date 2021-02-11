@@ -9,3 +9,5 @@ D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(39,14): me
 D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(14,2): message : see declaration of 'Student::Student'
 D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(41,11): error C2039: 'SetAt': is not a member of 'Array<Student>'
 D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Template\main.cpp(36): message : see declaration of 'Array<Student>'
+  template.cpp
+  Generating Code...
