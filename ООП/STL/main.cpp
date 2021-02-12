@@ -98,16 +98,15 @@ int main()
 	//sort(vect.begin(), vect.end()); //сортирует от начала до конца, меняет элементы местами
 	//ShowVector(vect);
 
-	//vector <Demo> testV;
-	//for (int i = 0; i < 10; i++)
-	//{
-	//	Demo temp(rand());
-	//	testV.push_back(temp);
-	//}
-	//ShowDemoVect(testV);
-	//sort(testV.begin(), testV.end());
-	//ShowDemoVect(testV);
-	 
-	TestList();
+	vector <Demo> testV;
+	for (int i = 0; i < 10; i++)
+	{
+		Demo temp(rand());
+		testV.push_back(temp);
+	}
+	ShowDemoVect(testV);
+	sort(testV.begin(), testV.end());
+	ShowDemoVect(testV);
+	
 
 }
