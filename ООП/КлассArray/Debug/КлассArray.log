@@ -1,13 +1,13 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (КлассArray.vcxproj).  Это может привести к ошибкам очистки и перестроения.
   array.cpp
-C:\RepozitoryOvsy\ООП\КлассArray\array.cpp(24,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\RepozitoryOvsy\ООП\КлассArray\array.cpp(25,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\RepozitoryOvsy\ООП\КлассArray\array.cpp(39,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\RepozitoryOvsy\ООП\КлассArray\array.cpp(40,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\RepozitoryOvsy\ООП\КлассArray\array.cpp(55,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\RepozitoryOvsy\ООП\КлассArray\array.cpp(56,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\RepozitoryOvsy\ООП\КлассArray\array.cpp(82,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\RepozitoryOvsy\ООП\КлассArray\array.cpp(83,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\КлассArray\array.cpp(24,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\КлассArray\array.cpp(25,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\КлассArray\array.cpp(39,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\КлассArray\array.cpp(40,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\КлассArray\array.cpp(55,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\КлассArray\array.cpp(56,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\КлассArray\array.cpp(82,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\КлассArray\array.cpp(83,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
   main.cpp
   Создание кода...
-  КлассArray.vcxproj -> C:\RepozitoryOvsy\ООП\Debug\КлассArray operator overloading.exe
+  КлассArray.vcxproj -> C:\Users\Взрослая академия\source\repos\StepOvsy\ООП\Debug\КлассArray operator overloading.exe

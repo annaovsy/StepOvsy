@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Взрослая академия\source\repos\StepOvsy\ООП\STL\STLlist.h(10,1): error C2144: синтаксическая ошибка: перед "void" требуется ";"
+C:\Users\Взрослая академия\source\repos\StepOvsy\ООП\STL\main.cpp(59,20): warning C4018: <: несоответствие типов со знаком и без знака

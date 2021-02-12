@@ -1,6 +1,6 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (класс.vcxproj).  Это может привести к ошибкам очистки и перестроения.
   main.cpp
   NumStor.cpp
-C:\RepozitoryOvsy\ООП\класс\NumStor.cpp(35,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\класс\NumStor.cpp(35,20): warning C4018: <: несоответствие типов со знаком и без знака
   Создание кода...
-  класс.vcxproj -> C:\RepozitoryOvsy\ООП\Debug\классNumberStorage.exe
+  класс.vcxproj -> C:\Users\Взрослая академия\source\repos\StepOvsy\ООП\Debug\классNumberStorage.exe
