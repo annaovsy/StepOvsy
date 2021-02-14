@@ -67,7 +67,31 @@ Fraction Fraction::operator+(Fraction a)
     return result;
 }
 
-Fraction Fraction::operator-(Fraction)
+Fraction Fraction::operator-(Fraction a)
 {
-    return Fraction();
+    Fraction result;
+    result.numerator = (intPart * denominator + numerator) * a.denominator - (a.intPart * a.denominator + a.numerator) * denominator;
+    result.denominator = denominator * a.denominator;
+    if (result.numerator < 0)
+    {
+        result.numerator *= -1;
+    }
+    result.GetMixedView();
+    return result;
+}
+
+Fraction Fraction::operator*(Fraction a)
+{
+    Fraction result;
+    result = ((intPart * numerator) * (a.intPart * a.numerator)) / (denominator * a.denominator);
+    result.GetMixedView();
+    return result;
+}
+
+Fraction Fraction::operator/(Fraction a) 
+{
+    Fraction result;
+    result = ((intPart * numerator) * a.denominator) / ((a.intPart * a.numerator) * denominator);
+    result.GetMixedView();
+    return result;
 }

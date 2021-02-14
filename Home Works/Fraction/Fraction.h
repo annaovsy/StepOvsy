@@ -23,9 +23,7 @@ public:
     void Print();
     
     Fraction operator + (Fraction);
-    Fraction operator - (Fraction);
-    //// метод умножения двух дробей
-    //Fraction operator * (Fraction);
-    //// метод деления двух дробей
-    //Fraction operator / (Fraction);
+    Fraction operator - (Fraction);  
+    Fraction operator * (Fraction);
+    Fraction operator / (Fraction);
 };
