@@ -2,6 +2,7 @@
 #include <vector>
 #include <time.h>
 #include <algorithm>
+#include <map>
 #include <fstream>
 using namespace std;
 
@@ -21,6 +22,12 @@ public:
 	int GetNumber() { return number; }
 	string GetStation() { return station; }
 	double GetTime() { return time; }
+
+	bool operator==(int _number)
+	{
+		return number == _number;
+	}
+
 };
 
 class RailwayStation
@@ -45,7 +52,14 @@ public:
 	}
 	bool Find(int number, Train& outTrain)
 	{
-		vector<Train>::iterator ptrTrain = trains.begin();
+		auto ptrTrain = find(trains.begin(), trains.end(), number); //אכדמנטעל find
+		if (ptrTrain != trains.end())
+		{
+			outTrain = *ptrTrain;
+			return true;
+		}
+		return false;
+		/*vector<Train>::iterator ptrTrain = trains.begin();
 		while (ptrTrain != trains.end())
 		{
 			if (number == ptrTrain->GetNumber())
@@ -55,7 +69,7 @@ public:
 			}
 			++ptrTrain;
 		}
-		return false;
+		return false;*/
 	}
 	bool SaveFile(const char* filename)
 	{
@@ -108,7 +122,7 @@ int main()
 	station.Add(train3);
 	station.Show();
 	Train temp;
-	if (station.Find(3, temp))
+	if (station.Find(2, temp))
 	{
 		cout << "Number " << temp.GetNumber()
 			<< " Station " << temp.GetStation()
@@ -117,11 +131,12 @@ int main()
 
 	station.SaveFile("Station.txt");
 
-	RailwayStation station2;
-	if (station2.ReadFile("Station.txt"))
-	{
-		cout << "Read ok" << endl;
-		station2.Show();
-	}
+
+	//RailwayStation station2;
+	//if (station2.ReadFile("Station.txt"))
+	//{
+	//	cout << "Read ok" << endl;
+	//	station2.Show();
+	//}
 
 }
