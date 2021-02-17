@@ -108,8 +108,30 @@ public:
 	}
 };
 
+template <class container>
+void Show(container col)
+{
+	for (auto i = col.begin(); i != ; i++)
+	{
+
+	}
+}
+
 int main()
 {
-	
+	map<string, int> cont;
+	multimap<string, int> multicont;
+
+	cont.insert(make_pair("Ivanov", 10));
+	cont.insert(make_pair("Petrov", 20));
+	cont["Sidorov"] = 30;
+	Show(cont);
+
+	cont["Ivanov"] = 15;
+	Show(cont);
+	multicont.insert(make_pair("Sidorov", 20));
+	Show(multicont);
+
+
 
 }
