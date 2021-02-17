@@ -102,6 +102,11 @@ bool DebitCard::ExpenseReportFile(const char* filename)
 			third = "Продукты";
 		}
 	}
+	
+	cout << "Топ 3 затрат по категорям:" << endl;
+	cout << "1. " << first << endl;
+	cout << "2. " << second << endl;
+	cout << "3. " << third << endl;
 
 	ofstream fileOut(filename, ios::out); //вывод в файл
 	if (!fileOut.is_open())
@@ -114,10 +119,19 @@ bool DebitCard::ExpenseReportFile(const char* filename)
 	return true;
 }
 
-void DebitCard::Show()
+void Menu()
 {
-	cout << "Общая сумма на карте : " << sumTotal << endl;
-	cout << "Продукты : " << productCategory << endl;
-	cout << "Развлечения : " << entertainmentCategory << endl;
-	cout << "Путешествия : " << travelCategory << endl;
+	cout << "\n*****************************************" << endl;
+	cout << "*\tВыберите действие:\t\t*" << endl;
+	cout << "*  Общая сумма на карте		   - 1\t*" << endl;
+	cout << "*  Пополнение средств		   - 2\t*" << endl;
+	cout << "*  Внесение затрат		   - 3\t*"<< endl;
+	cout << "*  Просмотр рейтинга/запись в файл - 4\t*" << endl;
+	cout << "*  Выход			   - 5\t*" << endl;
+	cout << "*****************************************" << endl << endl;	
 }
+
+CreditCard::CreditCard(int _sumTotal, int _interestRate) :
+	DebitCard(_sumTotal), 
+	interestRate(_interestRate)
+{}
