@@ -3,6 +3,10 @@
 using namespace std;
 
 void Menu();
+int Debit();
+int Credit();
+void ChoiceCard();
+//int ChoiceCards();
 
 class DebitCard
 {
