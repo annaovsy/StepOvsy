@@ -3,6 +3,147 @@
 #include <fstream>
 using namespace std;
 
+//int ChoiceCards()
+//{
+//	DebitCard* ptrCard;
+//	DebitCard cardD;
+//	CreditCard cardC;
+//	cout << "\n\tПожалуйста, выберите карту\n\t1 - Дебетовая | 2 - Кредитная\n\t";
+//	int choiceCard;
+//	cin >> choiceCard;
+//	while (true)
+//	{
+//		if(choiceCard == 1)
+//			ptrCard = &cardD;
+//		else if(choiceCard == 2)
+//			ptrCard = &cardC;
+//
+//		Menu();
+//		int choice;
+//		cin >> choice;
+//		if (choice == 1)
+//		{
+//			cout << "Общая сумма на карте : " << ptrCard->sumTotal << endl;
+//		}
+//		else if (choice == 2)
+//		{
+//			ptrCard->SetRefill();
+//		}
+//		else if (choice == 3)
+//		{
+//			ptrCard->SetExpenses();
+//		}
+//		else if (choice == 4)
+//		{
+//			ptrCard->ExpenseReportFile("Top.txt");
+//		}
+//		else if (choice == 5)
+//		{
+//			cout << "**********************************************************" << endl;
+//			cout << "\tБлагодарим за пользование сервисом!\n\tДо свидания!" << endl;
+//			return false;
+//		}
+//	}
+//}
+
+void Menu()
+{
+	cout << "\n*****************************************" << endl;
+	cout << "*\tВыберите действие:\t\t*" << endl;
+	cout << "*  Общая сумма на карте		   - 1\t*" << endl;
+	cout << "*  Пополнение средств		   - 2\t*" << endl;
+	cout << "*  Внесение затрат		   - 3\t*" << endl;
+	cout << "*  Просмотр рейтинга/запись в файл - 4\t*" << endl;
+	cout << "*  Выход			   - 5\t*" << endl;
+	cout << "*****************************************" << endl << endl;
+}
+
+int Debit()
+{
+	DebitCard card;
+	Menu();
+	while (true)
+	{	
+		int choice;
+		cin >> choice;
+		if (choice == 1)
+		{
+			cout << "Общая сумма на карте : " << card.sumTotal << endl;
+		}
+		else if (choice == 2)
+		{
+			card.SetRefill();
+		}
+		else if (choice == 3)
+		{
+			card.SetExpenses();
+		}
+		else if (choice == 4)
+		{
+			card.ExpenseReportFile("Top.txt");
+		}
+		else if (choice == 5)
+		{
+			cout << "**********************************************************" << endl;
+			cout << "\tБлагодарим за пользование сервисом!\n\tДо свидания!" << endl;
+			return false;
+		}
+		cout << " ------------------------------" << endl;
+		cout << " * Выберите другое действие : *" << endl;
+	}
+}
+
+int Credit()
+{
+	CreditCard card;
+	Menu();
+	while (true)
+	{
+		int choice;
+		cin >> choice;
+		if (choice == 1)
+		{
+			cout << "Общая сумма на карте : " << card.sumTotal << endl;
+		}
+		else if (choice == 2)
+		{
+			card.SetRefill();
+		}
+		else if (choice == 3)
+		{
+			card.SetExpenses();
+		}
+		else if (choice == 4)
+		{
+			card.ExpenseReportFile("Top.txt");
+		}
+		else if (choice == 5)
+		{
+			cout << "**********************************************************" << endl;
+			cout << "\tБлагодарим за пользование сервисом!\n\tДо свидания!" << endl;
+			return false;
+		}
+		cout << " ------------------------------" << endl;
+		cout << " * Выберите другое действие : *" << endl;
+	}
+}
+
+void ChoiceCard()
+{
+	cout << "\n\tПожалуйста, выберите карту\n\t1 - Дебетовая | 2 - Кредитная\n\t";
+	int choiceCard;
+	cin >> choiceCard;
+	switch (choiceCard)
+	{
+	case 1:
+		Debit();
+		break;
+	case 2:
+		Credit();
+		break;
+	}
+}
+
 DebitCard::DebitCard(int _sumTotal):
 	sumTotal(_sumTotal),
 	productCategory(0),
@@ -59,7 +200,6 @@ void DebitCard::SetExpenses()
 bool DebitCard::ExpenseReportFile(const char* filename)
 {
 	string first, second, third;
-	//int first, second, third;
 	if (productCategory > entertainmentCategory && productCategory > travelCategory)
 	{
 		first = "Продукты";
@@ -117,18 +257,6 @@ bool DebitCard::ExpenseReportFile(const char* filename)
 	fileOut << "3. " << third << endl;
 	fileOut.close();
 	return true;
-}
-
-void Menu()
-{
-	cout << "\n*****************************************" << endl;
-	cout << "*\tВыберите действие:\t\t*" << endl;
-	cout << "*  Общая сумма на карте		   - 1\t*" << endl;
-	cout << "*  Пополнение средств		   - 2\t*" << endl;
-	cout << "*  Внесение затрат		   - 3\t*"<< endl;
-	cout << "*  Просмотр рейтинга/запись в файл - 4\t*" << endl;
-	cout << "*  Выход			   - 5\t*" << endl;
-	cout << "*****************************************" << endl << endl;	
 }
 
 CreditCard::CreditCard(int _sumTotal, int _interestRate) :
