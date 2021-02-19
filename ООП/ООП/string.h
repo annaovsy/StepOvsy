@@ -15,7 +15,6 @@ public:
 		size = copyString.size;
 		str = new char[size + 1];
 		strcpy(str, copyString.str);
-
 	}
 
 	void Set();
