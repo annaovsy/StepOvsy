@@ -141,7 +141,6 @@
   <ItemGroup>
     <ClInclude Include="building.h" />
     <ClInclude Include="coordinate.h" />
-    <ClInclude Include="templateList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
