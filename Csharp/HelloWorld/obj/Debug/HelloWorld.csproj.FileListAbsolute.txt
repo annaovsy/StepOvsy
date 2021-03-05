@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\HelloWorld\obj\Debug\HelloWorld.pdb
