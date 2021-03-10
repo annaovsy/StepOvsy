@@ -28,7 +28,7 @@ namespace HelloWorld
 
             int? a = 50;
             int? a2 = null;
-            a2 = a ?? 100; //тоже самое что
+            a2 = a ?? 100;  //тоже самое что
                             //if (a != null)
                             //    a2 = a;
                             //else

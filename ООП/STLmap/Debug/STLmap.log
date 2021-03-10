@@ -1,2 +1,25 @@
-﻿  main.cpp
-  STLmap.vcxproj -> C:\Users\Взрослая академия\source\repos\StepOvsy\ООП\Debug\STLmap.exe
+﻿  TrainMap.cpp
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(55,1): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::pair<const int,Train>" (или приемлемое преобразование отсутствует)
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(30,1): message : может быть "Train &Train::operator =(Train &&)"
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(30,1): message : или       "Train &Train::operator =(const Train &)"
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(55,1): message : при попытке сопоставить список аргументов "(Train, std::pair<const int,Train>)"
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(76,1): error C2440: инициализация: невозможно преобразовать "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,Train>>>>" в "std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>"
+          with
+          [
+              _Ty=Train
+          ]
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(76,36): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(77,1): error C2679: бинарный "!=": не найден оператор, принимающий правый операнд типа "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,Train>>>>" (или приемлемое преобразование отсутствует)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(152,21): message : может быть "bool std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>::operator !=(const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &) const"
+          with
+          [
+              _Ty=Train
+          ]
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(77,1): message : при попытке сопоставить список аргументов "(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>, std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,Train>>>>)"
+          with
+          [
+              _Ty=Train
+          ]
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(103,12): error C2039: "push_back": не является членом "std::map<int,Train,std::less<int>,std::allocator<std::pair<const int,Train>>>".
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(34): message : см. объявление "std::map<int,Train,std::less<int>,std::allocator<std::pair<const int,Train>>>"
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STLmap\TrainMap.cpp(114,34): error C2760: синтаксическая ошибка: непредвиденный токен ";"; требуется "выражение"
