@@ -1,2 +1,6 @@
-﻿  Train.cpp
+﻿  main.cpp
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\ООП\STL\main.cpp(59,20): warning C4018: <: несоответствие типов со знаком и без знака
+  Train.cpp
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\Users\Взрослая академия\source\repos\StepOvsy\ООП\Debug\STL.exe при последней инкрементной компоновке; выполняется полная компоновка
   STL.vcxproj -> C:\Users\Взрослая академия\source\repos\StepOvsy\ООП\Debug\STL.exe
