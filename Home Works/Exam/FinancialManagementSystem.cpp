@@ -5,7 +5,7 @@ using namespace std;
 
 //int ChoiceCards()
 //{
-//	DebitCard* ptrCard;
+//	Card* ptrCard;
 //	DebitCard cardD;
 //	CreditCard cardC;
 //	cout << "\n\tПожалуйста, выберите карту\n\t1 - Дебетовая | 2 - Кредитная\n\t";
@@ -13,12 +13,13 @@ using namespace std;
 //	cin >> choiceCard;
 //	while (true)
 //	{
-//		if(choiceCard == 1)
+//		if (choiceCard == 1)
 //			ptrCard = &cardD;
+//		
 //		else if(choiceCard == 2)
 //			ptrCard = &cardC;
 //
-//		Menu();
+//		ptrCard->Menu();
 //		int choice;
 //		cin >> choice;
 //		if (choice == 1)
@@ -259,7 +260,32 @@ bool DebitCard::ExpenseReportFile(const char* filename)
 	return true;
 }
 
+//void DebitCard::Menu()
+//{
+//	cout << "\n*****************************************" << endl;
+//	cout << "*\tВыберите действие:\t\t*" << endl;
+//	cout << "*  Общая сумма на карте		   - 1\t*" << endl;
+//	cout << "*  Пополнение средств		   - 2\t*" << endl;
+//	cout << "*  Внесение затрат		   - 3\t*" << endl;
+//	cout << "*  Просмотр рейтинга/запись в файл - 4\t*" << endl;
+//	cout << "*  Выход			   - 5\t*" << endl;
+//	cout << "*****************************************" << endl << endl;
+//}
+
 CreditCard::CreditCard(int _sumTotal, int _interestRate) :
 	DebitCard(_sumTotal), 
 	interestRate(_interestRate)
 {}
+
+//void CreditCard::Menu()
+//{
+//	cout << "\n\tВаш кредитный лемит составляет " << sumTotal << endl;
+//	cout << "\n*****************************************" << endl;
+//	cout << "*\tВыберите действие:\t\t*" << endl;
+//	cout << "*  Общая сумма на карте		   - 1\t*" << endl;
+//	cout << "*  Пополнение средств		   - 2\t*" << endl;
+//	cout << "*  Внесение затрат		   - 3\t*" << endl;
+//	cout << "*  Просмотр рейтинга/запись в файл - 4\t*" << endl;
+//	cout << "*  Выход			   - 5\t*" << endl;
+//	cout << "*****************************************" << endl << endl;
+//}
