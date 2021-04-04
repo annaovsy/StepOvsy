@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Namespase\bin\Debug\Namespase.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Namespase\bin\Debug\Namespase.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Namespase\bin\Debug\Namespase.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Namespase\obj\Debug\Namespase.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Namespase\obj\Debug\Namespase.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Namespase\obj\Debug\Namespase.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Namespase\obj\Debug\Namespase.pdb
