@@ -54,13 +54,11 @@ namespace Operator
             return ob;
         }
 
-
         public void Show()
         {
             Console.WriteLine($"\n\tX = {X} , Y = {Y}\n");
         }
     }
-
 
     class Program
     {

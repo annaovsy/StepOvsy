@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bankomat", "Bankomat\Bankom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operator", "Operator\Operator.csproj", "{6B8CB51D-7DD1-4678-8651-B2473540B488}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operator2", "Operator2\Operator2.csproj", "{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,18 @@ Global
 		{6B8CB51D-7DD1-4678-8651-B2473540B488}.Release|x64.Build.0 = Release|Any CPU
 		{6B8CB51D-7DD1-4678-8651-B2473540B488}.Release|x86.ActiveCfg = Release|Any CPU
 		{6B8CB51D-7DD1-4678-8651-B2473540B488}.Release|x86.Build.0 = Release|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Debug|x64.Build.0 = Debug|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Debug|x86.Build.0 = Debug|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Release|x64.ActiveCfg = Release|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Release|x64.Build.0 = Release|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Release|x86.ActiveCfg = Release|Any CPU
+		{E89FF1EB-09E2-40D1-BE48-CB3F689D4542}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
