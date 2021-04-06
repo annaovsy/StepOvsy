@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Operator2\bin\Debug\Operator2.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Operator2\bin\Debug\Operator2.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Operator2\bin\Debug\Operator2.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Operator2\obj\Debug\Operator2.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Operator2\obj\Debug\Operator2.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Operator2\obj\Debug\Operator2.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Operator2\obj\Debug\Operator2.pdb
