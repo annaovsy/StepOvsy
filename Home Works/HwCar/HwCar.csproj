@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D7332F9E-B863-48BD-BAEF-CEDFCA46A556}</ProjectGuid>
+    <ProjectGuid>{D4648651-E19F-4E6B-BF2A-70AE96B8A920}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Bankomat</RootNamespace>
-    <AssemblyName>Bankomat</AssemblyName>
+    <RootNamespace>HwCar</RootNamespace>
+    <AssemblyName>HwCar</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account.cs" />
-    <Compile Include="Banc.cs" />
-    <Compile Include="Client.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -3,51 +3,50 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClientNamespase;
-using AccountNamespase;
+using AccountNamespace;
+using ClientNamespace;
 
-namespace BankNamespase
+namespace BankNamespace
 {
-    class Bank
+    class Banc
     {
         private readonly List<Client> _clients = new List<Client>();
 
-        public void AddClient(Client client, string nameClient, string login, string passwd, double balanse)
+        public int AddClient(string nameClient, string login, string passwd, double balance)
         {
             try
             {
                 var account = new Account()
                 {
-                    Balanse = balanse,
+                    Balance = balance,
                     Login = login,
-                    Pass = passwd,
+                    Pass = passwd
                 };
                 var client = new Client()
                 {
                     Name = nameClient,
-                    Account = account,
+                    Account = account
                 };
+
                 _clients.Add(client);
 
                 return client.Account.Number;
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error Add Client" + ex.Message);
+                Console.WriteLine("Error AddClient " + ex.Message);
+                return 0;
             }
         }
-            
-        public bool CheckPasswrd(int numberAccount, string passwrd)
+
+        public bool CheckPasswd(int numberAccout, string passwd)
         {
-            foreach(var client in _clients)
+            foreach (var client in _clients)
             {
-                if (client.Number.Value == numberAccount && client.Account.Pass == passwrd)
+                if (client.Number == numberAccout && client.Passwd == passwd)
                     return true;
-            }          
+            }
             return false;
         }
-
-
-
     }
 }

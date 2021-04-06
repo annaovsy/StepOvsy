@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AccountNamespase
+namespace AccountNamespace
 {
     class Account
     {
         private string _login;
         private string _pass;
-        private double _balanse;
+        private double _balance;
 
         public Account()
         {
@@ -21,7 +21,7 @@ namespace AccountNamespase
         {
             get { return _login; }
 
-            set 
+            set
             {
                 if (!string.IsNullOrEmpty(value))
                     _login = value;
@@ -36,7 +36,7 @@ namespace AccountNamespase
 
             set
             {
-                if (!string.IsNullOrEmpty(value) && value.Length > 3) 
+                if (!string.IsNullOrEmpty(value) && value.Length > 3)
                     _pass = value;
                 else
                     throw new ArgumentNullException(nameof(value));
@@ -45,16 +45,19 @@ namespace AccountNamespase
 
         public int Number { get; }
 
-        public double Balanse
+        public double Balance
         {
-            get { return _balanse; }
+            get { return _balance; }
 
             set
             {
                 if (value <= 0)
-                    throw new Exception("Balanse Exception");
+                    throw new Exception("Wrong set balance");
+
+                _balance = value;
             }
         }
+
 
     }
 }
