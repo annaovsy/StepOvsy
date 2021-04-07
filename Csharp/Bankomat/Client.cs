@@ -1,11 +1,11 @@
-﻿using AccountNamespase;
+﻿using AccountNamespace;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClientNamespase
+namespace ClientNamespace
 {
     class Client
     {
@@ -19,11 +19,13 @@ namespace ClientNamespase
 
             set
             {
-                _account = value ?? throw new ArgumentNullException(nameof(_account));
+                _account = value ?? throw new ArgumentNullException(nameof(value));
             }
         }
 
-        public int? Number => Account?.Number;
+        public int Number => _account.Number;
+
+        public string Passwd => _account?.Pass;
 
         public string Name
         {
@@ -37,7 +39,5 @@ namespace ClientNamespase
                     throw new ArgumentNullException(nameof(value));
             }
         }
-
-
     }
 }
