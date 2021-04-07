@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inheritanse\bin\Debug\Inheritanse.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inheritanse\bin\Debug\Inheritanse.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inheritanse\bin\Debug\Inheritanse.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse.pdb
