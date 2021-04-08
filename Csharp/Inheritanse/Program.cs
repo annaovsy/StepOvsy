@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritanse
 {
-    class Human
+    abstract class Human
     {
         private int _id;
         protected string firstName;
@@ -23,11 +23,12 @@ namespace Inheritanse
             birthday = date;
         }
 
-        public void Print()
+        public abstract void Think();
+
+        public virtual void Print()
         {
             Console.WriteLine($"Фамилия: {firstName}\nИмя: {lastName}\nДата рождения: {birthday.ToShortDateString()}"); // ToShortDateString выведет дату без времени
         }
-
     }
 
     class Employee:Human
@@ -46,10 +47,15 @@ namespace Inheritanse
             _salary = salary;
         }
 
-        public new void Print() 
+        public override void Print() 
         {
             base.Print(); //сначала вызовет Print из базового класса, затем из наследника
             Console.WriteLine($"\nЗарплата: {_salary}\n");
+        }
+
+        public override void Think()
+        {
+            throw new NotImplementedException();
         }
     }
 
@@ -63,9 +69,10 @@ namespace Inheritanse
             _activity = activity;
         }
 
-        public void ShowManager()
+        public override void Print()
         {
-            Console.WriteLine($"Менеджер. Деятельность {_activity} ");
+            base.Print();
+            Console.WriteLine($"Менеджер. Деятельность {_activity} \n");
         }
     }
 
@@ -79,8 +86,9 @@ namespace Inheritanse
             _scientificDirection = scientificDirection;
         }
 
-        public void ShowScinetist()
+        public override void Print()
         {
+            base.Print();
             Console.WriteLine($"Ученый. Научное направление {_scientificDirection} ");
         }
     }
@@ -89,33 +97,32 @@ namespace Inheritanse
     {
         static void Main(string[] args)
         {
-            Employee empl = new Employee("Иванов", "Иван", new DateTime(1996,05,23), 20000);
-            empl.Print();
+            /* Human empl = new Employee("Иванов", "Иван", new DateTime(1996, 05, 23), 20000);
+             Employee manager = new Manager("Петров", "Петр", new DateTime(1997, 06, 23), 35000, "Продукты питания");
 
-            Employee manager = new Manager("Петров", "Петр", new DateTime(1997, 06, 23), 35000, "Продукты питания");
+             Human[] empls = new Human[]
+             {
+                 empl,
+                 manager,
+                 new Scinetist("Сидоров", "Владимир", new DateTime(1997, 06, 23), 37000, "История")
+             };
 
-            Employee[] empls = new Employee[]
+             foreach (Employee item in empls)
+             {                 
+                 item.Print();
+             }*/
+
+            Learner[] learners =
             {
-                manager,
-                new Scinetist("Сидоров", "Владимир", new DateTime(1997, 06, 23), 37000, "История")
+                new Student("Иванов", "Иван", new DateTime(1997, 06, 23), "ЮФУ", "aaa"),
+                new SchoolChild("Петров","Петр", new DateTime(1996, 07, 13),"Школа №37","10В")
             };
-
-            foreach(Employee item in empls)
+            foreach(Learner learner in learners)
             {
-                if (item is Manager)
-                {
-                    Manager man = item as Manager;
-                    man.ShowManager();
-                }
-                else if(item is Scinetist)
-                {
-                    Scinetist scinetist = item as Scinetist;
-                    scinetist.ShowScinetist();
-                }
-                else
-                {
-                    item.Print();
-                }
+                learner.Print();
+                learner.Study();
+                learner.Think();
+                Console.WriteLine();
             }
 
         }
