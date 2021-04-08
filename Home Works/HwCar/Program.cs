@@ -16,10 +16,15 @@ namespace HwCar
             private int engineVolume;            //объем двигателя
             private bool automaticTransmission = true;  //коробка передач
         }
-        Car()
-        {
+        
+        
+        
+        
+        
+        //Car()
+        //{
 
-        }
+        //}
 
         static bool IsAutomat(ref bool automaticTransmission)
         {

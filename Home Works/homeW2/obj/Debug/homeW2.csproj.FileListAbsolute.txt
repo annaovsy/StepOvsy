@@ -1,0 +1,7 @@
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\homeW2\bin\Debug\homeW2.exe.config
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\homeW2\bin\Debug\homeW2.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\homeW2\bin\Debug\homeW2.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\homeW2\obj\Debug\homeW2.csprojAssemblyReference.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\homeW2\obj\Debug\homeW2.csproj.CoreCompileInputs.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\homeW2\obj\Debug\homeW2.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\homeW2\obj\Debug\homeW2.pdb
