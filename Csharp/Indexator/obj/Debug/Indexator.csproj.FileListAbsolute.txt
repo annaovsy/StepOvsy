@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Indexator\bin\Debug\Indexator.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Indexator\bin\Debug\Indexator.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Indexator\bin\Debug\Indexator.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Indexator\obj\Debug\Indexator.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Indexator\obj\Debug\Indexator.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Indexator\obj\Debug\Indexator.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Indexator\obj\Debug\Indexator.pdb
