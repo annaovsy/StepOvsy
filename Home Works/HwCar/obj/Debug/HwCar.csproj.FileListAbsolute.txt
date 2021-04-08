@@ -1,0 +1,7 @@
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HwCar\bin\Debug\HwCar.exe.config
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HwCar\bin\Debug\HwCar.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HwCar\bin\Debug\HwCar.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HwCar\obj\Debug\HwCar.csprojAssemblyReference.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HwCar\obj\Debug\HwCar.csproj.CoreCompileInputs.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HwCar\obj\Debug\HwCar.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HwCar\obj\Debug\HwCar.pdb
