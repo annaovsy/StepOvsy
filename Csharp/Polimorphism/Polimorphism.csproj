@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BDE66130-9960-4F02-8B0C-346E114F67A8}</ProjectGuid>
+    <ProjectGuid>{778E79C5-9337-4714-8CDA-0220024FC9E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Inheritanse</RootNamespace>
-    <AssemblyName>Inheritanse</AssemblyName>
+    <RootNamespace>Polimorphism</RootNamespace>
+    <AssemblyName>Polimorphism</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Figure.cs" />
+    <Compile Include="MixFigure.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="Square.cs" />
+    <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
