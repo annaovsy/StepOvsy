@@ -18,7 +18,7 @@ namespace ConsoleApp1
             Ex ex = new Ex();
             ex.Num = 10;
             Console.WriteLine("val = " + ex.Num);
-
+            
             Employee em1 = new Employee
             {
                 Name = "Иванов",
@@ -29,7 +29,7 @@ namespace ConsoleApp1
             Employee em2 = new Employee();
             em2.Age = 35;
             em2.Salary = -100;
-
+            
             Console.WriteLine(em1.Print());
             Console.WriteLine(em2.Print());
         }

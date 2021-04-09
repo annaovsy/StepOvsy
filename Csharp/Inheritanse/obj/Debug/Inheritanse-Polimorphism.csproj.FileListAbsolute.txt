@@ -5,3 +5,10 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inherita
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse-Polimorphism.csproj.CoreCompileInputs.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Inheritanse\bin\Debug\Inheritanse.exe.config
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Inheritanse\bin\Debug\Inheritanse.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Inheritanse\bin\Debug\Inheritanse.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse-Polimorphism.csprojAssemblyReference.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse-Polimorphism.csproj.CoreCompileInputs.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Inheritanse\obj\Debug\Inheritanse.pdb
