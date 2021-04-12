@@ -81,7 +81,7 @@ namespace Indexator
             {
                 Console.WriteLine(myShop[i]);
             }
-            Console.WriteLine(myShop["Asus"]);
+           // Console.WriteLine(myShop["Asus"]);
         }
     }
 }

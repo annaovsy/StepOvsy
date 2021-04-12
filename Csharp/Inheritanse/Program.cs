@@ -114,8 +114,10 @@ namespace Inheritanse
 
             Learner[] learners =
             {
+                new SchoolChild("Петров","Петр", new DateTime(1996, 07, 13),"Школа №37","10В"),
                 new Student("Иванов", "Иван", new DateTime(1997, 06, 23), "ЮФУ", "aaa"),
-                new SchoolChild("Петров","Петр", new DateTime(1996, 07, 13),"Школа №37","10В")
+
+                new Student("bbb", "Иван", new DateTime(1997, 06, 23), "bbb", "bbb")
             };
             foreach(Learner learner in learners)
             {
