@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorphism", "Polimorphis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{4EAF5201-F723-4AF4-ABF2-B53C814B5CBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceTest", "InterfaceTest\InterfaceTest.csproj", "{6AF6CC28-4FC5-4216-882A-77F9CE21F231}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,18 @@ Global
 		{4EAF5201-F723-4AF4-ABF2-B53C814B5CBE}.Release|x64.Build.0 = Release|Any CPU
 		{4EAF5201-F723-4AF4-ABF2-B53C814B5CBE}.Release|x86.ActiveCfg = Release|Any CPU
 		{4EAF5201-F723-4AF4-ABF2-B53C814B5CBE}.Release|x86.Build.0 = Release|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Debug|x64.Build.0 = Debug|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Debug|x86.Build.0 = Debug|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Release|x64.ActiveCfg = Release|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Release|x64.Build.0 = Release|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Release|x86.ActiveCfg = Release|Any CPU
+		{6AF6CC28-4FC5-4216-882A-77F9CE21F231}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
