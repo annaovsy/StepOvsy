@@ -1,0 +1,7 @@
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\RangeOfArray\bin\Debug\RangeOfArray.exe.config
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\RangeOfArray\bin\Debug\RangeOfArray.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\RangeOfArray\bin\Debug\RangeOfArray.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\RangeOfArray\obj\Debug\RangeOfArray.csprojAssemblyReference.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\RangeOfArray\obj\Debug\RangeOfArray.csproj.CoreCompileInputs.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\RangeOfArray\obj\Debug\RangeOfArray.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\RangeOfArray\obj\Debug\RangeOfArray.pdb
