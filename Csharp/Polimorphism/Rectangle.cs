@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polimorphism
 {
-    class Rectangle : Figure
+    class Rectangle : Figure, ISimpelFigure
     {
         private int _a;
         private int _b;
@@ -17,14 +17,18 @@ namespace Polimorphism
             _b = b;
         }
         
-        public override double Area()
+        public double Area()
         {
-            return _a * _b;
+            FigArea = _a * _b;
+            return FigArea;
         }
 
-        public override double Perimeter()
+        public double Perimetr()
         {
-            return (_a + _b) * 2;
+            FigPerimetr = (_a + _b) * 2;
+            return FigPerimetr;
         }
+
+       
     }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+﻿                                     using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,18 +16,18 @@ namespace Polimorphism
             _figures = figures;
         }
 
-        public override double Area()
-        {
+        //public override double Area()
+        //{
            
-            foreach(Figure figure in _figures)
-            {
+        //    foreach(Figure figure in _figures)
+        //    {
 
-            }
-        }
+        //    }
+        //}
 
-        public override double Perimeter()
-        {
-            throw new NotImplementedException();
-        }
+        //public override double Perimeter()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

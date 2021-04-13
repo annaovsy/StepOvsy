@@ -8,8 +8,13 @@ namespace Polimorphism
 {
     abstract class Figure
     {
-        public abstract double Area();
-        
-        public abstract double Perimeter();
+        public double FigPerimetr { get; set; }
+        public double FigArea { get; set; }
+        public override string ToString()
+        {
+            return $"Perimetr {FigPerimetr} Area {FigArea}";
+        }
+        //public abstract double Area();
+        //public abstract double Perimeter();
     }
 }

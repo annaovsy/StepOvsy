@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polimorphism
 {
-    class Square : Figure
+    class Square : Figure, ISimpelFigure
     {
         private int _a;
 
@@ -15,14 +15,16 @@ namespace Polimorphism
             _a = a;
         }
 
-        public override double Area()
+        public double Area()
         {
-            return _a * _a;
+            FigArea = _a * _a;
+            return FigArea;
         }
 
-        public override double Perimeter()
+        public double Perimetr()
         {
-            return _a * 4;
+            FigPerimetr = _a * 4;
+            return FigPerimetr;
         }
     }
 }
