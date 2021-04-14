@@ -5,3 +5,10 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Interfac
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Interface\obj\Debug\Interface.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Interface\obj\Debug\Interface.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Interface\bin\Debug\Interface.exe.config
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Interface\bin\Debug\Interface.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Interface\bin\Debug\Interface.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Interface\obj\Debug\Interface.csprojAssemblyReference.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Interface\obj\Debug\Interface.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\Interface\obj\Debug\Interface.pdb
