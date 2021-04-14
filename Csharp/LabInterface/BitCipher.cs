@@ -8,11 +8,10 @@ namespace LabInterface
 {
     class BitCipher : ICipher
     {
-        public string str;
-
+        public short key;
         public BitCipher(short key)
         {
-            
+            this.key = key;
         }
 
         public string Decode(string str)
@@ -22,7 +21,7 @@ namespace LabInterface
 
         public string Encode(string str)
         {
-
+            res = res+ (char)(str[i] ^ key);
         }
     }
 }
