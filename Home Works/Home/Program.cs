@@ -149,7 +149,7 @@ namespace Home
                 Window window = new Window();
                 window.Do(house);
                 t.report.Add($"Worker {Name} builded is window {house.window.Count}!");
-
+                 
             }
 
             else if (house.roof == null)
