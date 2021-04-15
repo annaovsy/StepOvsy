@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabInterface\obj\Debug\LabInterface.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabInterface\obj\Debug\LabInterface.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabInterface\bin\Debug\LabInterface.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabInterface\bin\Debug\LabInterface.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabInterface\bin\Debug\LabInterface.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabInterface\obj\Debug\LabInterface.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabInterface\obj\Debug\LabInterface.pdb

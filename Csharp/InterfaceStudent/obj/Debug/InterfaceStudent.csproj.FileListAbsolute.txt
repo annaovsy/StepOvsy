@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\InterfaceStudent\bin\Debug\InterfaceStudent.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\InterfaceStudent\bin\Debug\InterfaceStudent.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\InterfaceStudent\bin\Debug\InterfaceStudent.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\InterfaceStudent\obj\Debug\InterfaceStudent.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\InterfaceStudent\obj\Debug\InterfaceStudent.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\InterfaceStudent\obj\Debug\InterfaceStudent.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\InterfaceStudent\obj\Debug\InterfaceStudent.pdb
