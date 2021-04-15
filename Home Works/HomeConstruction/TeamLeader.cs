@@ -8,16 +8,19 @@ namespace HomeConstruction
 {
     class TeamLeader : IWorker
     {
-        public string Name { get; set; }
+        public string Name { get; }
         public List<string> report = new List<string>();
-        string IWorker.Name => Name;
 
         public TeamLeader(string name)
-        { Name = name; }
+        {
+            Name = name;
+        }
+        
         public void Report()
         {
             double d = (report.Count / 11.0) * 100;
-            Console.WriteLine($"{(int)d} % of work completed!");
+            Console.WriteLine($"{(int)d} % дома построено!");
         }
+
     }
 }

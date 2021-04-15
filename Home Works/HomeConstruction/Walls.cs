@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace HomeConstruction
 {
-    class Walls
+    class Walls : IPart
     {
+        public void Create(Home home)
+        {
+            home.walls.Add(new Walls());
+        }
     }
 }

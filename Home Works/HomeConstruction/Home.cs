@@ -18,7 +18,15 @@ namespace HomeConstruction
         {
             if (teamLeader.report.Count == 11)
             {
-                string house = "\t*** Дом построен! ***";
+                string house = @"
+                        ^
+                       / \|
+                      /___\
+                     |     |
+                     |     |
+                     |__П__|
+                ******************                   
+                    ";
                 Console.WriteLine(house);
             }
             else Console.WriteLine("Дом еще не построен");
