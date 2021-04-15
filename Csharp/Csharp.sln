@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceStudent", "Interfa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabInterface", "LabInterface\LabInterface.csproj", "{6A25F171-BFE8-4FD0-99AD-2D388EF08C4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File", "File\File.csproj", "{A496BE39-01F1-4D8C-AED9-3456B3C95202}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,18 @@ Global
 		{6A25F171-BFE8-4FD0-99AD-2D388EF08C4C}.Release|x64.Build.0 = Release|Any CPU
 		{6A25F171-BFE8-4FD0-99AD-2D388EF08C4C}.Release|x86.ActiveCfg = Release|Any CPU
 		{6A25F171-BFE8-4FD0-99AD-2D388EF08C4C}.Release|x86.Build.0 = Release|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Debug|x64.Build.0 = Debug|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Debug|x86.Build.0 = Debug|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Release|x64.ActiveCfg = Release|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Release|x64.Build.0 = Release|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Release|x86.ActiveCfg = Release|Any CPU
+		{A496BE39-01F1-4D8C-AED9-3456B3C95202}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
