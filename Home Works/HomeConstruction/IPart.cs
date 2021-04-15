@@ -8,5 +8,6 @@ namespace HomeConstruction
 {
     interface IPart
     {
+        void Create(Home home);
     }
 }

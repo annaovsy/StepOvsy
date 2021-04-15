@@ -1,0 +1,7 @@
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HomeConstruction\bin\Debug\HomeConstruction.exe.config
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HomeConstruction\bin\Debug\HomeConstruction.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HomeConstruction\bin\Debug\HomeConstruction.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HomeConstruction\obj\Debug\HomeConstruction.csprojAssemblyReference.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HomeConstruction\obj\Debug\HomeConstruction.csproj.CoreCompileInputs.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HomeConstruction\obj\Debug\HomeConstruction.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\HomeConstruction\obj\Debug\HomeConstruction.pdb

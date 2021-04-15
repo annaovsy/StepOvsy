@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace HomeConstruction
 {
-    class Door
+    class Door : IPart
     {
+        public void Create(Home home)
+        {
+            home.door = new Door();
+        }
     }
 }
