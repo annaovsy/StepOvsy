@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\File\bin\Debug\File.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\File\bin\Debug\File.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\File\bin\Debug\File.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\File\obj\Debug\File.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\File\obj\Debug\File.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\File\obj\Debug\File.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\File\obj\Debug\File.csprojAssemblyReference.cache
