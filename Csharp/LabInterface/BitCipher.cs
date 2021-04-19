@@ -16,12 +16,22 @@ namespace LabInterface
 
         public string Decode(string str)
         {
-            throw new NotImplementedException();
+            string result = "";
+            for (int i = 0; i < str.Length; i++)
+            {
+                result = result + (char)(str[i] ^ key);
+            }           
+            return result;
         }
 
         public string Encode(string str)
         {
-            res = res+ (char)(str[i] ^ key);
+            string result = "";
+            for (int i = 0; i < str.Length; i++)
+            {
+                result = result + (char)(str[i] ^ key);
+            }
+            return result;           
         }
     }
 }

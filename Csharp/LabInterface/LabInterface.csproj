@@ -48,6 +48,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleCipher.cs" />
+    <Compile Include="UnlistedPhone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
