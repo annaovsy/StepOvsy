@@ -1,0 +1,7 @@
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Indexator\bin\Debug\Indexator.exe.config
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Indexator\bin\Debug\Indexator.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Indexator\bin\Debug\Indexator.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Indexator\obj\Debug\Indexator.csprojAssemblyReference.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Indexator\obj\Debug\Indexator.csproj.CoreCompileInputs.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Indexator\obj\Debug\Indexator.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\Indexator\obj\Debug\Indexator.pdb
