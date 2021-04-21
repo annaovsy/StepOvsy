@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabGeneric\bin\Debug\LabGeneric.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabGeneric\bin\Debug\LabGeneric.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabGeneric\bin\Debug\LabGeneric.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabGeneric\obj\Debug\LabGeneric.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabGeneric\obj\Debug\LabGeneric.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabGeneric\obj\Debug\LabGeneric.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LabGeneric\obj\Debug\LabGeneric.pdb

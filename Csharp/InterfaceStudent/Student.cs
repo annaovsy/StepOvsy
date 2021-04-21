@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceStudent
 {
-    class Student : IComparable, ICloneable
+    class Student : IComparable<Student>, ICloneable
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -24,13 +24,18 @@ namespace InterfaceStudent
             return temp;
         }
 
-        public int CompareTo(object obj)
+        //public int CompareTo(object obj) //необобщенный интерфейс
+        //{
+        //    if(obj is Student)
+        //    {
+        //        return FirstName.CompareTo((obj as Student).FirstName);
+        //    }
+        //    throw new NotImplementedException();
+        //}
+
+        public int CompareTo(Student other) //обобщенный интерфейс!!!
         {
-            if(obj is Student)
-            {
-                return FirstName.CompareTo((obj as Student).FirstName);
-            }
-            throw new NotImplementedException();
+            return FirstName.CompareTo(other.FirstName);
         }
 
         public override string ToString()
