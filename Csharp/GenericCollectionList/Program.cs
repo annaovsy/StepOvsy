@@ -81,6 +81,9 @@ namespace GenericCollectionList
             };
             Console.WriteLine($"x = {point2.X} y = {point2.Y}");
             Console.WriteLine(typeof(Point2D<double>));
+
+            Point2D<string> pointStr = new Point2D<string>();
+
         }
     }
 }
