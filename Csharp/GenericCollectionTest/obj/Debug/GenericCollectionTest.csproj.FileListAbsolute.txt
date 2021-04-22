@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericCollectionTest\bin\Debug\GenericCollectionTest.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericCollectionTest\bin\Debug\GenericCollectionTest.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericCollectionTest\bin\Debug\GenericCollectionTest.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericCollectionTest\obj\Debug\GenericCollectionTest.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericCollectionTest\obj\Debug\GenericCollectionTest.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericCollectionTest\obj\Debug\GenericCollectionTest.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericCollectionTest\obj\Debug\GenericCollectionTest.pdb
