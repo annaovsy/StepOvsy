@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Delegate\bin\Debug\Delegate.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Delegate\bin\Debug\Delegate.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Delegate\bin\Debug\Delegate.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Delegate\obj\Debug\Delegate.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Delegate\obj\Debug\Delegate.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Delegate\obj\Debug\Delegate.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Delegate\obj\Debug\Delegate.pdb
