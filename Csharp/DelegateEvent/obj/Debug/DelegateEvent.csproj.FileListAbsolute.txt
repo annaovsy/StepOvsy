@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEvent\bin\Debug\DelegateEvent.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEvent\bin\Debug\DelegateEvent.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEvent\bin\Debug\DelegateEvent.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEvent\obj\Debug\DelegateEvent.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEvent\obj\Debug\DelegateEvent.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEvent\obj\Debug\DelegateEvent.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEvent\obj\Debug\DelegateEvent.pdb
