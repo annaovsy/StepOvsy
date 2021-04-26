@@ -34,16 +34,22 @@ namespace DelegateEventTest
             };
             TestEvent testEvent = new TestEvent();
 
-            student.PropertyChanged += Student_PropertyChanged; //Student_PropertyChanged - метод, который вызывается в ответ на событие
+            //student.PropertyChanged += Student_PropertyChanged; //Student_PropertyChanged - метод, который вызывается в ответ на событие
+            //вместо этого можно так 
+            student.PropertyChanged +=
+                delegate (object sender, PropertyEventArgs e)
+                {
+                    Console.WriteLine($"Изменено свойство {e.Name}");
+                };
 
             testEvent.ChangeMark(student, 5.5);
             testEvent.ChangeName(student, "Don");
             testEvent.ChangeGroup(student, "68934abcd");
         }
 
-        private static void Student_PropertyChanged(object sender, PropertyEventArgs e)
-        {
-            Console.WriteLine($"Изменено свойство {e.Name}");
-        }
+        //private static void Student_PropertyChanged(object sender, PropertyEventArgs e)
+        //{
+        //    Console.WriteLine($"Изменено свойство {e.Name}");
+        //}
     }
 }
