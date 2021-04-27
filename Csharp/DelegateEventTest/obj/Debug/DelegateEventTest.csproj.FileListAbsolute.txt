@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEventTest\bin\Debug\DelegateEventTest.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEventTest\bin\Debug\DelegateEventTest.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEventTest\bin\Debug\DelegateEventTest.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEventTest\obj\Debug\DelegateEventTest.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEventTest\obj\Debug\DelegateEventTest.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEventTest\obj\Debug\DelegateEventTest.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateEventTest\obj\Debug\DelegateEventTest.pdb
