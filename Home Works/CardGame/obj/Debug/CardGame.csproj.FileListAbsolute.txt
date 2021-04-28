@@ -1,0 +1,7 @@
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\CardGame\bin\Debug\CardGame.exe.config
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\CardGame\bin\Debug\CardGame.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\CardGame\bin\Debug\CardGame.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\CardGame\obj\Debug\CardGame.csprojAssemblyReference.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\CardGame\obj\Debug\CardGame.csproj.CoreCompileInputs.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\CardGame\obj\Debug\CardGame.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Home Works\CardGame\obj\Debug\CardGame.pdb

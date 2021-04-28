@@ -1,0 +1,7 @@
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\CyberForum\bin\Debug\CyberForum.exe.config
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\CyberForum\bin\Debug\CyberForum.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\CyberForum\bin\Debug\CyberForum.pdb
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\CyberForum\obj\Debug\CyberForum.csprojAssemblyReference.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\CyberForum\obj\Debug\CyberForum.csproj.CoreCompileInputs.cache
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\CyberForum\obj\Debug\CyberForum.exe
+D:\Шаг Учеба\C++\github\StepOvsy\Csharp\CyberForum\obj\Debug\CyberForum.pdb
