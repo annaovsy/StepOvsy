@@ -62,6 +62,7 @@ namespace Delegate
                      BirthDate = new DateTime(1996,11,30)
                 }
             };
+
             studGroup.ForEach(FullName);
             IEnumerable<string> names = studGroup.Select(FullName2);
             var studs = studGroup.FindAll(OnlySpring);
