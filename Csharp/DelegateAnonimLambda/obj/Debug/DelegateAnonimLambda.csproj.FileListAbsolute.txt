@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateAnonimLambda\bin\Debug\DelegateAnonimLambda.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateAnonimLambda\bin\Debug\DelegateAnonimLambda.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateAnonimLambda\bin\Debug\DelegateAnonimLambda.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateAnonimLambda\obj\Debug\DelegateAnonimLambda.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateAnonimLambda\obj\Debug\DelegateAnonimLambda.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateAnonimLambda\obj\Debug\DelegateAnonimLambda.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\DelegateAnonimLambda\obj\Debug\DelegateAnonimLambda.pdb
