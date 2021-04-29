@@ -74,10 +74,12 @@ namespace LINQ
 
             int[] arrayInt = { 5, 34, 67, 12, 94, 42, 102, 88 };
 
-            IEnumerable<int> result = from i in arrayInt   //отложенное выполнение запроса
-                                      where i % 2 == 0
-                                      orderby i descending
-                                      select i;
+            //IEnumerable<int> result = from i in arrayInt   //отложенное выполнение запроса
+            //                          where i % 2 == 0
+            //                          orderby i descending
+            //                          select i;
+
+            var result = arrayInt.Where(val => val % 2 == 0).OrderByDescending(val => val); //тожесамое
 
             //IEnumerable<int> result2 = (from i in arrayInt   //запрос выполняется сразу
             //                          select i).ToList();
