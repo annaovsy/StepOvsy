@@ -21,8 +21,7 @@ namespace DelegateAnonimLambda
 
         public static string ReversString(this string data)
         {
-            string temp = "";
-            
+            string temp = "";            
 
             for (int i = 0; i < data.Length; i++)
             {
