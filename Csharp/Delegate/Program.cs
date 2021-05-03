@@ -93,6 +93,7 @@ namespace Delegate
             }
             teacher.OnExam(".Net Framework");
 
+
             Console.WriteLine("Введите выражение");
 
             //string expression = Console.ReadLine();
