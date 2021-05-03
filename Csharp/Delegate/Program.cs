@@ -65,7 +65,10 @@ namespace Delegate
 
             studGroup.ForEach(FullName);
             IEnumerable<string> names = studGroup.Select(FullName2);
-            var studs = studGroup.FindAll(OnlySpring);
+            Console.WriteLine($"***********************");
+
+            var studs = studGroup.FindAll(stud => stud.BirthDate.Month >= 3 && stud.BirthDate.Month <= 5); //лямбда вместо метода
+
             studGroup.Sort(SortBirthday);
             studGroup.ForEach(FullName);
 
@@ -77,10 +80,10 @@ namespace Delegate
             {
                 return $"{stud.FirstName} {stud.LastName}";
             }
-            bool OnlySpring(Student stud)
-            {
-                return stud.BirthDate.Month >= 3 && stud.BirthDate.Month <= 5;
-            }
+            //bool OnlySpring(Student stud)
+            //{
+            //    return stud.BirthDate.Month >= 3 && stud.BirthDate.Month <= 5;
+            //}
             int SortBirthday(Student student1, Student student2)
             {
                 return student1.BirthDate.CompareTo(student2.BirthDate);

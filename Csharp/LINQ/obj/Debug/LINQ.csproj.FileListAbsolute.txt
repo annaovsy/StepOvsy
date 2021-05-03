@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQ\bin\Debug\LINQ.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQ\bin\Debug\LINQ.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQ\obj\Debug\LINQ.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQ\obj\Debug\LINQ.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQ\obj\Debug\LINQ.pdb
