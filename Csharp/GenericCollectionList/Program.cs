@@ -58,12 +58,18 @@ namespace GenericCollectionList
             }
 
             // int number = dictionary["Gr100"];
-            if (dictionary.TryGetValue("Gr100", out var number))
+            if (dictionary.TryGetValue("Gr1", out var number))
             {
+                number = 200;
                 Console.WriteLine($"Key = Gr100 value = {number}");
             }
             else
                 Console.WriteLine("Not Found!");
+
+            foreach (/*KeyValuePair<string, int>*/var item in dictionary)
+            {
+                Console.WriteLine($"Key = {item.Key} value = {item.Value}");
+            }
 
             Point2D<int> point = new Point2D<int>()
             {
