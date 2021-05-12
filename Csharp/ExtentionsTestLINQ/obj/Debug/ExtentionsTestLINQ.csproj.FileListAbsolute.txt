@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\ExtentionsTestLINQ\bin\Debug\ExtentionsTestLINQ.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\ExtentionsTestLINQ\bin\Debug\ExtentionsTestLINQ.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\ExtentionsTestLINQ\bin\Debug\ExtentionsTestLINQ.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\ExtentionsTestLINQ\obj\Debug\ExtentionsTestLINQ.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\ExtentionsTestLINQ\obj\Debug\ExtentionsTestLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\ExtentionsTestLINQ\obj\Debug\ExtentionsTestLINQ.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\ExtentionsTestLINQ\obj\Debug\ExtentionsTestLINQ.pdb
