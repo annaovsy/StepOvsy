@@ -1,0 +1,7 @@
+C:\Users\user\Source\Repos\StepOvsy\Csharp\Bankomat\bin\Debug\Bankomat.exe.config
+C:\Users\user\Source\Repos\StepOvsy\Csharp\Bankomat\bin\Debug\Bankomat.exe
+C:\Users\user\Source\Repos\StepOvsy\Csharp\Bankomat\bin\Debug\Bankomat.pdb
+C:\Users\user\Source\Repos\StepOvsy\Csharp\Bankomat\obj\Debug\Bankomat.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\StepOvsy\Csharp\Bankomat\obj\Debug\Bankomat.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\StepOvsy\Csharp\Bankomat\obj\Debug\Bankomat.exe
+C:\Users\user\Source\Repos\StepOvsy\Csharp\Bankomat\obj\Debug\Bankomat.pdb

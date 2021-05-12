@@ -48,5 +48,40 @@ namespace BankNamespace
             }
             return false;
         }
+
+        public void PrintBalance()
+        {
+            foreach (var client in _clients)
+            {
+                Console.WriteLine(client.Account.Balance);
+            }
+        }
+
+        public void Refill(double refill)
+        {
+            foreach (var client in _clients)
+            {
+                client.Account.Balance += refill;
+                Console.WriteLine("Операция выполнена успешно!");
+            }
+        }
+
+        public void WithdrawMoney(double money)
+        {
+            foreach (var client in _clients)
+            {
+                if(client.Account.Balance < money)
+                {
+                    Console.WriteLine("Недостаточно средств!");
+                    break;
+                }
+                else
+                {
+                    client.Account.Balance -= money;
+                    Console.WriteLine("Операция выполнена успешно!");
+                }
+                  
+            }
+        }
     }
 }
