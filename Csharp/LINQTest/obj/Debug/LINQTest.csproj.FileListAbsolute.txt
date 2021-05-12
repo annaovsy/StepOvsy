@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQTest\bin\Debug\LINQTest.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQTest\bin\Debug\LINQTest.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQTest\bin\Debug\LINQTest.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQTest\obj\Debug\LINQTest.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQTest\obj\Debug\LINQTest.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQTest\obj\Debug\LINQTest.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQTest\obj\Debug\LINQTest.csprojAssemblyReference.cache

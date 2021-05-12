@@ -8,15 +8,24 @@ namespace ExtentionsTestLINQ
 {
     static class ExWithoutPassword
     {
-        public static User WithoutPassword(this User user)
+        public static User WithoutPassword(this User user) //метод расширения
         {
-            User temp = new User();
-            temp.Password = null;
-            temp.Login = user.Login;
-            temp.Role = user.Role;
-            temp.Token = user.Token;            
+            return new User
+            {
+                Password = null,
+                Login = user.Login,
+                Role = user.Role,
+                Token = user.Token
+            };
+        }
 
-            return temp;
+        public static IEnumerable<User> WithoutPasswords(this IEnumerable<User> users)
+        {
+            return users.Select(user => user.WithoutPassword()); 
+
+            //var res = from user in users
+            //          select user.WithoutPassword();
+            //return res;
         }
 
     }

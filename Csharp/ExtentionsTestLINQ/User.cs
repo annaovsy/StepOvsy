@@ -13,5 +13,16 @@ namespace ExtentionsTestLINQ
         public string Role { get; set; }
 
         public string Token { get; set; }
+
+        public void Print()
+        {
+            Console.WriteLine($"Login = {Login}");
+
+            Console.WriteLine($"Password = {Password}");
+
+            Console.WriteLine($"Role = {Role}");
+
+            Console.WriteLine($"Token = {Token}");
+        }
     }
 }
