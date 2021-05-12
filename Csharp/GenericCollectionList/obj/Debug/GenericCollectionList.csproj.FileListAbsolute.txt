@@ -5,3 +5,10 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericC
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericCollectionList\obj\Debug\GenericCollectionList.csproj.CoreCompileInputs.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericCollectionList\obj\Debug\GenericCollectionList.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\GenericCollectionList\obj\Debug\GenericCollectionList.pdb
+C:\Users\user\Source\Repos\StepOvsy\Csharp\GenericCollectionList\bin\Debug\GenericCollectionList.exe.config
+C:\Users\user\Source\Repos\StepOvsy\Csharp\GenericCollectionList\bin\Debug\GenericCollectionList.exe
+C:\Users\user\Source\Repos\StepOvsy\Csharp\GenericCollectionList\bin\Debug\GenericCollectionList.pdb
+C:\Users\user\Source\Repos\StepOvsy\Csharp\GenericCollectionList\obj\Debug\GenericCollectionList.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\StepOvsy\Csharp\GenericCollectionList\obj\Debug\GenericCollectionList.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\StepOvsy\Csharp\GenericCollectionList\obj\Debug\GenericCollectionList.exe
+C:\Users\user\Source\Repos\StepOvsy\Csharp\GenericCollectionList\obj\Debug\GenericCollectionList.pdb
