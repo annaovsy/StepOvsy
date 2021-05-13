@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Tamagochi\bin\Debug\Tamagochi.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Tamagochi\bin\Debug\Tamagochi.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Tamagochi\bin\Debug\Tamagochi.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Tamagochi\obj\Debug\Tamagochi.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Tamagochi\obj\Debug\Tamagochi.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Tamagochi\obj\Debug\Tamagochi.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Tamagochi\obj\Debug\Tamagochi.pdb
