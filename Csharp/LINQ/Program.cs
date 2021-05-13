@@ -140,11 +140,13 @@ namespace LINQ
 
             string[] teams = { "Бавария", "Боруссия", "Реал Мадрид", "Манчестер Сити", "ПСЖ", "Барселона" };
 
-            var resTeams = from team in teams
-                           where team.StartsWith("Б")
-                           select team;
+            var teamsB = teams.Where(str => str.StartsWith("Б")).ToArray();
 
-            foreach (var item in resTeams)
+            //var teamsB = from team in teams
+            //               where team.StartsWith("Б")
+            //               select team;
+            
+            foreach (var item in teamsB)
             {
                 Console.WriteLine(" " + item);
             }
@@ -152,9 +154,11 @@ namespace LINQ
 
             int[] numbers = { 1, 2, 3, 4, 10, 34, 55, 66, 77, 88 };
 
-            var resNumbers = from num in numbers
-                             where num % 2 == 0 && num > 10
-                             select num;
+            var resNumbers = numbers.Where(num => num % 2 == 0 && num > 10).ToArray();
+
+            //var resNumbers = from num in numbers
+            //                 where num % 2 == 0 && num > 10
+            //                 select num;
 
             foreach (var item in resNumbers)
             {
