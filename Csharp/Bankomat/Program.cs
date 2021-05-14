@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using BankNamespace;
 using ClientNamespace;
 using AccountNamespace;
+using System.Diagnostics;
 
 namespace Bankomat
 {
@@ -31,25 +32,44 @@ namespace Bankomat
                 bool checkPass = banc.CheckPasswd(numbAcc, pass);
                 if (checkPass)
                 {
-                    Console.WriteLine($"Выберите действие");
-                    Console.WriteLine($"1 - Вывод баланса на экран");
-                    Console.WriteLine($"2 - Пополнение счета");
-                    Console.WriteLine($"3 - Снять деньги со счета");
-                    Console.WriteLine($"4 - Выход");
+                    while (true) 
+                    {
+                        Console.WriteLine($"Выберите действие");
+                        Console.WriteLine($"1 - Вывод баланса на экран");
+                        Console.WriteLine($"2 - Пополнение счета");
+                        Console.WriteLine($"3 - Снять деньги со счета");
+                        Console.WriteLine($"4 - Выход");
 
-                    string choise = Console.ReadLine();
-                    if(choise == "1")
-                        banc.PrintBalance();
+                        string choise = Console.ReadLine();
+                        if (choise == "1")
+                        {
+                            banc.PrintBalance();
+                            
+                        }
+                        else if(choise == "2")
+                        {
+                            Console.WriteLine("Введите сумму:");
+                            double refill = Double.Parse(Console.ReadLine());
 
+                            banc.Refill(refill);
+                        }
+                        else if (choise == "3")
+                        {
+                            Console.WriteLine("Введите сумму:");
+                            double money = Double.Parse(Console.ReadLine());
 
-                    banc.PrintBalance();
+                            banc.WithdrawMoney(money);
+                        }
+                        else if (choise == "4")
+                        {
+                            Console.WriteLine("До свидания!");
+                            Process.GetCurrentProcess().Kill();
+                        }
 
-                    banc.Refill(99);
-                    banc.PrintBalance();
-                    banc.WithdrawMoney(6000);
-                    banc.PrintBalance();
-
-                    Console.WriteLine($"ок");
+                        Console.ReadKey();
+                        Console.Clear();
+                    } 
+                   
                 }
                 else
                 {
@@ -57,10 +77,7 @@ namespace Bankomat
                     i--;
                 }                   
             }
-            Console.WriteLine("До свидания!");
-            
-            
-
+            Console.WriteLine("До свидания!");   
         }
     }
 }
