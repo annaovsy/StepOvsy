@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Deserialization\bin\Debug\Deserialization.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Deserialization\bin\Debug\Deserialization.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Deserialization\bin\Debug\Deserialization.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Deserialization\bin\Debug\ClassLib.dll
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Deserialization\bin\Debug\ClassLib.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Deserialization\obj\Debug\Deserialization.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Deserialization\obj\Debug\Deserialization.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Deserialization\obj\Debug\Deserialization.csproj.CopyComplete
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Deserialization\obj\Debug\Deserialization.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Deserialization\obj\Debug\Deserialization.pdb

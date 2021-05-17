@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mw7qOYaD7QaL5dyh7iIx8FMoQn+5la6YEIj98Q/wY9EewaUW/OyUKqgvfQ8SCYt2tVaKUyaBtH7G8wnoVnAZew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Взрослая академия\\source\\repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Взрослая академия\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Взрослая академия\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
