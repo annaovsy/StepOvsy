@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArrayOfPC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PC>
+    <Brand>brand1</Brand>
+    <SerialNumber>111</SerialNumber>
+    <Model>model1</Model>
+  </PC>
+  <PC>
+    <Brand>brand2</Brand>
+    <SerialNumber>112</SerialNumber>
+    <Model>model2</Model>
+  </PC>
+</ArrayOfPC>

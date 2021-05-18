@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQtoXml\bin\Debug\LINQtoXml.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQtoXml\bin\Debug\LINQtoXml.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQtoXml\bin\Debug\LINQtoXml.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQtoXml\obj\Debug\LINQtoXml.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQtoXml\obj\Debug\LINQtoXml.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQtoXml\obj\Debug\LINQtoXml.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\LINQtoXml\obj\Debug\LINQtoXml.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\bin\Debug\Serialization.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\bin\Debug\Serialization.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\bin\Debug\Serialization.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\bin\Debug\ClassLib.dll
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\bin\Debug\ClassLib.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\obj\Debug\Serialization.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\obj\Debug\Serialization.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\obj\Debug\Serialization.csproj.CopyComplete
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\obj\Debug\Serialization.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\obj\Debug\Serialization.pdb
