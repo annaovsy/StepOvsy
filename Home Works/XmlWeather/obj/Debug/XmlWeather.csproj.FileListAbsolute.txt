@@ -1,0 +1,7 @@
+C:\Users\user\Source\Repos\StepOvsy\Home Works\XmlWeather\bin\Debug\XmlWeather.exe.config
+C:\Users\user\Source\Repos\StepOvsy\Home Works\XmlWeather\bin\Debug\XmlWeather.exe
+C:\Users\user\Source\Repos\StepOvsy\Home Works\XmlWeather\bin\Debug\XmlWeather.pdb
+C:\Users\user\Source\Repos\StepOvsy\Home Works\XmlWeather\obj\Debug\XmlWeather.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\StepOvsy\Home Works\XmlWeather\obj\Debug\XmlWeather.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\StepOvsy\Home Works\XmlWeather\obj\Debug\XmlWeather.exe
+C:\Users\user\Source\Repos\StepOvsy\Home Works\XmlWeather\obj\Debug\XmlWeather.pdb

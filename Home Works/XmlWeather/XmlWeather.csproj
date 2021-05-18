@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC6CCBF6-8C74-440B-A625-2E96A308AC8A}</ProjectGuid>
+    <ProjectGuid>{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tamagochi</RootNamespace>
-    <AssemblyName>Tamagochi</AssemblyName>
+    <RootNamespace>XmlWeather</RootNamespace>
+    <AssemblyName>XmlWeather</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Personage.cs" />
+    <Compile Include="City.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

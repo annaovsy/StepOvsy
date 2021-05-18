@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cars>
+  <Car Image="MyCar.jpeg">
+    <Manufactured>dgfzksgnld</Manufactured>
+    <Model>Alfonso</Model>
+    <Color>Black</Color>
+    <Year>1912</Year>
+    <Speed>130</Speed>
+  </Car>
+
+ <Car Image="2Car.jpeg">
+    <Manufactured>dgfzksgnld</Manufactured>
+    <Model>Al</Model>
+    <Color>Whitek</Color>
+    <Year>1935</Year>
+    <Speed>130</Speed>
+  </Car>
+</Cars>
