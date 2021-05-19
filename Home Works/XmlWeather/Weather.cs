@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace XmlWeather
 {
-    class City
+    class Weather
     {
-        public string Code { get; set; }
+        public int CodeOfCity { get; set; }
+        public string City { get; set; }
+        public string WeatherToday { get; set; }
+
     }
 }

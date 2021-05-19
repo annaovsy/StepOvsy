@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Xml.Linq;
 
 namespace XmlWeather
 {
@@ -11,7 +12,7 @@ namespace XmlWeather
     {
         static void Main(string[] args)
         {
-            XmlTextReader reader = null;
+            var city = ReadXml("http://informer.gismeteo.by/rss/26730.xml");
 
             Console.WriteLine("Выберите город:");
             Console.WriteLine("1 - Москва");
@@ -20,43 +21,52 @@ namespace XmlWeather
             Console.WriteLine("4 - Астана");
             Console.WriteLine("5 - Рига");
             string str = Console.ReadLine();
-            if (str == "1")
+            
+            switch (str)
             {
-                reader = new XmlTextReader("http://informer.gismeteo.by/rss/26730.xml");
-            }
-            try
-            {
-                reader.WhitespaceHandling = WhitespaceHandling.None;
-                 
-                while (reader.Read())
-                {
-                    if (reader.IsStartElement("item"))
-                    {
-                        while (reader.Read())
-                        {
-                            if (reader.Name == "title")
-                            {
-                                Console.WriteLine(reader.ReadString());
-                            }
-                            if (reader.Name == "description")
-                            {
-                                Console.WriteLine(reader.ReadString());
-                                Console.WriteLine();
-                            }
-                        }
+                case "1":
+                    city = ReadXml("http://informer.gismeteo.by/rss/27612.xml");
+                    break;
 
-                    }
-                }
+                case "2":
+                    city = ReadXml("http://informer.gismeteo.by/rss/26730.xml");
+                    break;
+
+                case "3":
+                    city = ReadXml("http://informer.gismeteo.by/rss/37850.xml");
+                    break;
+
+                case "4":
+                    city = ReadXml("http://informer.gismeteo.by/rss/35188.xml");
+                    break;
+
+                case "5":
+                    city = ReadXml("http://informer.gismeteo.by/rss/26422.xml");
+                    break;
             }
-            catch (Exception ex)
+
+            foreach (var item in city)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine($"{item.City}");
+                Console.WriteLine($"{item.WeatherToday}");
+                Console.WriteLine();
             }
-            finally
-            {
-                if (reader != null)
-                    reader.Close();
-            }
+        }
+
+        static List<Weather> ReadXml(string path)
+        {
+            var xdoc = XDocument.Load(path);
+
+            var result = xdoc.Element("rss")
+                .Element("channel")
+                .Elements("item")
+                .Select(el => new Weather
+                { 
+                    City = el.Element("title").Value,
+                    WeatherToday = el.Element("description").Value
+                }).ToList();
+
+            return result;
         }
     }
 }

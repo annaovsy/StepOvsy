@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj",
         "projectName": "ClassLib",
-        "projectPath": "C:\\Users\\user\\source\\repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\StepOvsy\\Csharp\\ClassLib\\obj\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\StepOvsy\\Csharp\\ClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
