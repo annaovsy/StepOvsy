@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tamagotchi", "Tamagotchi\Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamQuiz", "ExamQuiz\ExamQuiz.csproj", "{03D8B954-2D1F-4E56-B5CF-B859F78807C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlWeather", "XmlWeather\XmlWeather.csproj", "{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,18 @@ Global
 		{03D8B954-2D1F-4E56-B5CF-B859F78807C2}.Release|x64.Build.0 = Release|Any CPU
 		{03D8B954-2D1F-4E56-B5CF-B859F78807C2}.Release|x86.ActiveCfg = Release|Any CPU
 		{03D8B954-2D1F-4E56-B5CF-B859F78807C2}.Release|x86.Build.0 = Release|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Debug|x64.Build.0 = Debug|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Debug|x86.Build.0 = Debug|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Release|x64.ActiveCfg = Release|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Release|x64.Build.0 = Release|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Release|x86.ActiveCfg = Release|Any CPU
+		{D67FF1F1-E5D9-4A7F-9E91-056852CBD6D9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,3 +5,10 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\XMLTest\
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\XMLTest\obj\Debug\XMLTest.csproj.CoreCompileInputs.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\XMLTest\obj\Debug\XMLTest.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\XMLTest\obj\Debug\XMLTest.pdb
+C:\Users\user\Source\Repos\StepOvsy\Csharp\XMLTest\bin\Debug\XMLTest.exe.config
+C:\Users\user\Source\Repos\StepOvsy\Csharp\XMLTest\bin\Debug\XMLTest.exe
+C:\Users\user\Source\Repos\StepOvsy\Csharp\XMLTest\bin\Debug\XMLTest.pdb
+C:\Users\user\Source\Repos\StepOvsy\Csharp\XMLTest\obj\Debug\XMLTest.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\StepOvsy\Csharp\XMLTest\obj\Debug\XMLTest.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\StepOvsy\Csharp\XMLTest\obj\Debug\XMLTest.exe
+C:\Users\user\Source\Repos\StepOvsy\Csharp\XMLTest\obj\Debug\XMLTest.pdb

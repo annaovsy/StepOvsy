@@ -56,12 +56,13 @@ namespace LINQtoXml
                     new XElement("Price", "30000"))));
 
             xdoc.Save("Phone.xml");
-
+           
            // ShowXml("Phone.xml");
             var lstPhone = ReadXml("Phone.xml");
             foreach(var phone in lstPhone)
             {
-                Console.WriteLine($"{phone.Name}");
+                Console.WriteLine($"{phone.Name} {phone.Price} {phone.Company}");
+             
             }
 
             List<Person> persones = new List<Person>();
@@ -83,21 +84,31 @@ namespace LINQtoXml
                      Age = 34,
                      Comp = new Company
                      {
-                         Name = "Шаг",
+                         Name = "Петров",
                          Address = "xcbhfhzf"
                      }
                  });
 
-
+            string key = "Петров";
             Serialize("persons.xml", persones);
             var lstPerson = Deserialization("persons.xml");
+            foreach (var item in lstPerson)
+            {
+                if (item.Comp.Name == key)
+                {
+                    Console.WriteLine(item.Name);
+                }
+                else
+                    Console.WriteLine("bad");
+            }
+            var res = lstPerson.Where(pers => pers.Comp.Name == pers.Name);
 
         }
 
         static void Serialize(string path, List<Person> persons)
         {
             XmlSerializer formatter = new XmlSerializer(typeof(List<Person>)); //сериализуем
-            using (var file = new FileStream("persons.xml", FileMode.Create))
+            using (var file = new FileStream(path, FileMode.Create))
             {
                 formatter.Serialize(file, persons);
             }
@@ -134,7 +145,7 @@ namespace LINQtoXml
 
             var result = xdoc.Element("phones")
                 .Elements("phone")
-                .Where(el => el.Element("Company").Value == "Samsung")
+                //.Where(el => el.Element("Company").Value == "Samsung")
                 .Select(el => new Phone
                 {
                     Name = el.Attribute("name").Value,
