@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FirstApp\bin\Debug\FirstApp.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FirstApp\bin\Debug\FirstApp.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FirstApp\bin\Debug\FirstApp.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FirstApp\obj\Debug\FirstApp.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FirstApp\obj\Debug\FirstApp.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FirstApp\obj\Debug\FirstApp.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FirstApp\obj\Debug\FirstApp.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FirstApp\obj\Debug\FirstApp.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FirstApp\obj\Debug\FirstApp.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FirstApp\obj\Debug\FirstApp.MainForm.resources

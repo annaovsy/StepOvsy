@@ -16,7 +16,7 @@ namespace Deserialization
         {
             var lstPC = Deserialization(@"C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\bin\Debug\PC.xml");
 
-            var res = lstPC.Where(pc => pc.SerialNumber == 111);
+            var res = lstPC.Where(pc => int.Parse(pc.SerialNumber) == 111);
             var xdoc = XDocument.Load(@"C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Serialization\bin\Debug\PC.xml");
 
             var resDoc = xdoc.Element("ArrayOfPC")
