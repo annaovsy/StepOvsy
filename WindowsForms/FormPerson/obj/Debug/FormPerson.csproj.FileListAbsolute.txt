@@ -1,0 +1,10 @@
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\FormPerson\bin\Debug\FormPerson.exe.config
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\FormPerson\bin\Debug\FormPerson.exe
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\FormPerson\bin\Debug\FormPerson.pdb
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\FormPerson\obj\Debug\FormPerson.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\FormPerson\obj\Debug\FormPerson.FormPerson.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\FormPerson\obj\Debug\FormPerson.Properties.Resources.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\FormPerson\obj\Debug\FormPerson.csproj.GenerateResource.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\FormPerson\obj\Debug\FormPerson.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\FormPerson\obj\Debug\FormPerson.exe
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\FormPerson\obj\Debug\FormPerson.pdb
