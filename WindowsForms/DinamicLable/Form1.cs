@@ -16,6 +16,8 @@ namespace DinamicLable
         Point stopClick = new Point();
         int countObject = 0;
 
+        List<Label> labels = new List<Label>();
+
         public Form1()
         {
             InitializeComponent();
@@ -24,12 +26,7 @@ namespace DinamicLable
             //label.Location = new Point(10, 10);
             //label.Text = "1";
             //label.BorderStyle = BorderStyle.FixedSingle;
-
             //Controls.Add(label);
-            Label label = new Label();
-            label.Location = startClick;
-            
-
         }
 
         private void Form1_MouseDown(object sender, MouseEventArgs e)
@@ -39,10 +36,13 @@ namespace DinamicLable
                 startClick.X = e.X;
                 startClick.Y = e.Y;
             }
-        }
-
-        private void Form1_MouseMove(object sender, MouseEventArgs e)
-        {
+            else if(e.Button == MouseButtons.Right)
+            {
+                foreach(var item in labels)
+                {
+                    
+                }
+            }
 
         }
 
@@ -53,19 +53,32 @@ namespace DinamicLable
                 stopClick.X = e.X;
                 stopClick.Y = e.Y;
             }
+            Size size = new Size(Math.Abs(stopClick.X - startClick.X),
+                                Math.Abs(stopClick.Y - startClick.Y));
+            if(size.Width<10 || size.Height<10)
+            {
+                MessageBox.Show("Нельзя создать объект");
+                return;
+            }
+            
             Label label = new Label
             {
                 Location = new Point(Math.Abs(stopClick.X - startClick.X) / 2.0 +
                                     stopClick.X > startClick.X ? startClick.X : stopClick.X,
-                           Math.Abs(stopClick.Y - startClick.Y) / 2.0 +
-                           stopClick.Y > startClick.Y ? startClick.Y : stopClick.Y),
+                            Math.Abs(stopClick.Y - startClick.Y) / 2.0 +
+                            stopClick.Y > startClick.Y ? startClick.Y : stopClick.Y),
 
-                Size = new Size(Math.Abs(stopClick.X - startClick.X),
-                                Math.Abs(stopClick.Y - startClick.Y)),
+                Size = size,
+
+
                 Text = (++countObject).ToString(),
                 BorderStyle = BorderStyle.FixedSingle
             };
             Controls.Add(label);
+            labels.Add(label);
+
+            
+            
         }
     }
 }
