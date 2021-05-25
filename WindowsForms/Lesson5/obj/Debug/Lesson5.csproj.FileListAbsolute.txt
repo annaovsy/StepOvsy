@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Lesson5\bin\Debug\Lesson5.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Lesson5\bin\Debug\Lesson5.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Lesson5\bin\Debug\Lesson5.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Lesson5\obj\Debug\Lesson5.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Lesson5\obj\Debug\Lesson5.Form1.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Lesson5\obj\Debug\Lesson5.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Lesson5\obj\Debug\Lesson5.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Lesson5\obj\Debug\Lesson5.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Lesson5\obj\Debug\Lesson5.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Lesson5\obj\Debug\Lesson5.pdb
