@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\List\bin\Debug\List.exe.config
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\List\bin\Debug\List.exe
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\List\bin\Debug\List.pdb
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\List\obj\Debug\List.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\List\obj\Debug\List.Properties.Resources.resources
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\List\obj\Debug\List.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\List\obj\Debug\List.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\List\obj\Debug\List.exe
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\List\obj\Debug\List.pdb
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\List\obj\Debug\List.FormList.resources

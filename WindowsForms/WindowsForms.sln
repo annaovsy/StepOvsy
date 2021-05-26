@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson5", "Lesson5\Lesson5.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinamicLable", "DinamicLable\DinamicLable.csproj", "{535CA936-B209-46B6-83A5-C386BE0ADEAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{510A1C2C-2E9E-4B0A-852D-56FB6B69E2BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee", "Employee\Employee.csproj", "{1B00B778-D7EE-4FE2-AF49-25E3A0EA7D40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{535CA936-B209-46B6-83A5-C386BE0ADEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{535CA936-B209-46B6-83A5-C386BE0ADEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{535CA936-B209-46B6-83A5-C386BE0ADEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510A1C2C-2E9E-4B0A-852D-56FB6B69E2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510A1C2C-2E9E-4B0A-852D-56FB6B69E2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510A1C2C-2E9E-4B0A-852D-56FB6B69E2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510A1C2C-2E9E-4B0A-852D-56FB6B69E2BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B00B778-D7EE-4FE2-AF49-25E3A0EA7D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B00B778-D7EE-4FE2-AF49-25E3A0EA7D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B00B778-D7EE-4FE2-AF49-25E3A0EA7D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B00B778-D7EE-4FE2-AF49-25E3A0EA7D40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
