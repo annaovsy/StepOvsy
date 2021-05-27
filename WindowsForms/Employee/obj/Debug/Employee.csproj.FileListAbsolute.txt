@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\Employee\bin\Debug\Employee.exe.config
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\Employee\bin\Debug\Employee.exe
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\Employee\bin\Debug\Employee.pdb
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\Employee\obj\Debug\Employee.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\Employee\obj\Debug\Employee.Form1.resources
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\Employee\obj\Debug\Employee.Properties.Resources.resources
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\Employee\obj\Debug\Employee.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\Employee\obj\Debug\Employee.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\Employee\obj\Debug\Employee.exe
+C:\Users\Взрослая академия\Source\Repos\StepOvsy\WindowsForms\Employee\obj\Debug\Employee.pdb

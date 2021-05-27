@@ -74,6 +74,7 @@ namespace DinamicLable
                 Text = (++countObject).ToString(),
                 BorderStyle = BorderStyle.FixedSingle
             };
+
             Controls.Add(label);
             labels.Add(label);
 
