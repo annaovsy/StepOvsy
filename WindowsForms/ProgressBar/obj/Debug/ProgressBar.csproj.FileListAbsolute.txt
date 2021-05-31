@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\ProgressBar\bin\Debug\ProgressBar.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\ProgressBar\bin\Debug\ProgressBar.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\ProgressBar\bin\Debug\ProgressBar.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\ProgressBar\obj\Debug\ProgressBar.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\ProgressBar\obj\Debug\ProgressBar.Form1.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\ProgressBar\obj\Debug\ProgressBar.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\ProgressBar\obj\Debug\ProgressBar.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\ProgressBar\obj\Debug\ProgressBar.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\ProgressBar\obj\Debug\ProgressBar.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\ProgressBar\obj\Debug\ProgressBar.pdb
