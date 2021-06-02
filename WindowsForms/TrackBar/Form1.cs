@@ -26,5 +26,12 @@ namespace TrackBar
             toolStripColorLable.BackColor = Color.White;
             this.Update();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormChild form = new FormChild();
+            form.ShowDialog();
+            MessageBox.Show("Конец программы!");
+        }
     }
 }

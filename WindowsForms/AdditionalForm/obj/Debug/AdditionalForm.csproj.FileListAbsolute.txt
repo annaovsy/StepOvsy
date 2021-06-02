@@ -1,0 +1,11 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\obj\Debug\AdditionalForm.FormChild.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\obj\Debug\AdditionalForm.MainForm.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\obj\Debug\AdditionalForm.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\obj\Debug\AdditionalForm.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\obj\Debug\AdditionalForm.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\obj\Debug\AdditionalForm.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\bin\Debug\AdditionalForm.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\bin\Debug\AdditionalForm.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\bin\Debug\AdditionalForm.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\obj\Debug\AdditionalForm.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionalForm\obj\Debug\AdditionalForm.pdb
