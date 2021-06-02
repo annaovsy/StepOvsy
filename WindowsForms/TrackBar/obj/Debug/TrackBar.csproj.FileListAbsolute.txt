@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TrackBar\bin\Debug\TrackBar.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TrackBar\bin\Debug\TrackBar.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TrackBar\bin\Debug\TrackBar.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TrackBar\obj\Debug\TrackBar.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TrackBar\obj\Debug\TrackBar.Form1.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TrackBar\obj\Debug\TrackBar.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TrackBar\obj\Debug\TrackBar.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TrackBar\obj\Debug\TrackBar.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TrackBar\obj\Debug\TrackBar.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TrackBar\obj\Debug\TrackBar.pdb

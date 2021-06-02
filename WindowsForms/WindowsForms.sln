@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBar2", "ProgressBar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBox", "CheckBox\CheckBox.csproj", "{38B4BC76-A6BB-455C-8BB8-042D4F054B16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackBar", "TrackBar\TrackBar.csproj", "{E1D678B9-9514-48E1-9941-DDD0BD795361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlBestOil", "ControlBestOil\ControlBestOil.csproj", "{23C768C4-8F10-4238-A44D-58D265227408}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{38B4BC76-A6BB-455C-8BB8-042D4F054B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38B4BC76-A6BB-455C-8BB8-042D4F054B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38B4BC76-A6BB-455C-8BB8-042D4F054B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D678B9-9514-48E1-9941-DDD0BD795361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D678B9-9514-48E1-9941-DDD0BD795361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D678B9-9514-48E1-9941-DDD0BD795361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D678B9-9514-48E1-9941-DDD0BD795361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C768C4-8F10-4238-A44D-58D265227408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C768C4-8F10-4238-A44D-58D265227408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C768C4-8F10-4238-A44D-58D265227408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C768C4-8F10-4238-A44D-58D265227408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
