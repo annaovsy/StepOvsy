@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace DinamicLable
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
         Point startClick = new Point(); 
         Point stopClick = new Point();
@@ -18,7 +18,7 @@ namespace DinamicLable
 
         List<Label> labels = new List<Label>();
 
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
             //Label label = new Label();
@@ -43,7 +43,6 @@ namespace DinamicLable
                     
                 }
             }
-
         }
 
         private void Form1_MouseUp(object sender, MouseEventArgs e)
@@ -70,16 +69,24 @@ namespace DinamicLable
 
                 Size = size,
 
-
                 Text = (++countObject).ToString(),
                 BorderStyle = BorderStyle.FixedSingle
             };
 
             Controls.Add(label);
-            labels.Add(label);
+            labels.Add(label);   
+        }
 
-            
-            
+        private void FormMain_MouseClick(object sender, MouseEventArgs e)
+        {
+            if(e.Button == MouseButtons.Right)
+            {
+                foreach(var item in labels)
+                {
+                    this.Text = 
+                }
+            }
+
         }
     }
 }

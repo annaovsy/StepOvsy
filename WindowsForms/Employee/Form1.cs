@@ -27,7 +27,7 @@ namespace Employee
             employee.Salary = double.Parse(textBoxSalary.Text);
             employee.Position = comboBoxPosition.Text;
             employee.City = comboBoxCity.Text;           
-
+            
             listBoxListEmpl.Items.Add(employee.Surname);
             employees.Add(employee);
             SaveToFile("Employees.txt", employees);
