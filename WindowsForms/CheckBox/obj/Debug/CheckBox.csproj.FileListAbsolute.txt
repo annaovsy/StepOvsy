@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\CheckBox\bin\Debug\CheckBox.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\CheckBox\bin\Debug\CheckBox.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\CheckBox\bin\Debug\CheckBox.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\CheckBox\obj\Debug\CheckBox.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\CheckBox\obj\Debug\CheckBox.Form1.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\CheckBox\obj\Debug\CheckBox.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\CheckBox\obj\Debug\CheckBox.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\CheckBox\obj\Debug\CheckBox.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\CheckBox\obj\Debug\CheckBox.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\CheckBox\obj\Debug\CheckBox.pdb
