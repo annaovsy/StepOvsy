@@ -12,6 +12,16 @@ namespace FileTest
 {
     public partial class MainForm : Form
     {
+        public List<string> files 
+        { 
+            get { return files; }
+            set
+            { 
+                files = value;
+                listBoxFile.Items.Add(files);
+            }
+        }
+
         public MainForm()
         {
             InitializeComponent();
@@ -20,10 +30,7 @@ namespace FileTest
         private void buttonSearch_Click(object sender, EventArgs e)
         {
             FormFiles formFiles = new FormFiles();
-            if(formFiles.ShowDialog() == DialogResult.OK)
-            {
-                listBoxFile.Items.Add()
-            }
+           
         }
     }
 }
