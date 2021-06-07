@@ -1,0 +1,11 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\bin\Debug\AdditionaDialogues.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\bin\Debug\AdditionaDialogues.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\bin\Debug\AdditionaDialogues.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\obj\Debug\AdditionaDialogues.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\obj\Debug\AdditionaDialogues.MainForm.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\obj\Debug\AdditionaDialogues.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\obj\Debug\AdditionaDialogues.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\obj\Debug\AdditionaDialogues.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\obj\Debug\AdditionaDialogues.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\obj\Debug\AdditionaDialogues.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\AdditionaDialogues\obj\Debug\AdditionaDialogues.AddEditForm.resources
