@@ -19,7 +19,7 @@ namespace FirstApp
 
         private void MainForm_MouseMove(object sender, MouseEventArgs e)
         {
-          //  lableCoordinates.Text = CoordtestToString(e);
+            lableCoordinates.Text = CoordtestToString(e);
         }
 
         private string CoordtestToString(MouseEventArgs args)

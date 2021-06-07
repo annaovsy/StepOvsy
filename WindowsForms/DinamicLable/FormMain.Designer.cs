@@ -1,6 +1,6 @@
 ﻿namespace DinamicLable
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -30,14 +30,16 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(572, 355);
-            this.Name = "Form1";
+            this.ClientSize = new System.Drawing.Size(763, 437);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Статика";
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FormMain_MouseClick);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             this.ResumeLayout(false);

@@ -8,3 +8,13 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Di
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\DinamicLable\obj\Debug\DinamicLable.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\DinamicLable\obj\Debug\DinamicLable.pdb
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\DinamicLable\obj\Debug\DinamicLable.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\DinamicLable\bin\Debug\DinamicLable.exe.config
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\DinamicLable\bin\Debug\DinamicLable.exe
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\DinamicLable\bin\Debug\DinamicLable.pdb
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\DinamicLable\obj\Debug\DinamicLable.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\DinamicLable\obj\Debug\DinamicLable.FormMain.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\DinamicLable\obj\Debug\DinamicLable.Properties.Resources.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\DinamicLable\obj\Debug\DinamicLable.csproj.GenerateResource.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\DinamicLable\obj\Debug\DinamicLable.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\DinamicLable\obj\Debug\DinamicLable.exe
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\DinamicLable\obj\Debug\DinamicLable.pdb
