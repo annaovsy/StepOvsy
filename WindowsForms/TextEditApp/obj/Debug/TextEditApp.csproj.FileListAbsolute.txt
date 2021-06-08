@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TextEditApp\bin\Debug\TextEditApp.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TextEditApp\bin\Debug\TextEditApp.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TextEditApp\bin\Debug\TextEditApp.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TextEditApp\obj\Debug\TextEditApp.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TextEditApp\obj\Debug\TextEditApp.MainForm.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TextEditApp\obj\Debug\TextEditApp.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TextEditApp\obj\Debug\TextEditApp.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TextEditApp\obj\Debug\TextEditApp.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TextEditApp\obj\Debug\TextEditApp.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\TextEditApp\obj\Debug\TextEditApp.pdb

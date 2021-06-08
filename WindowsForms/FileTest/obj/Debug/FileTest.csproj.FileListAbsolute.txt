@@ -1,0 +1,11 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\bin\Debug\FileTest.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\bin\Debug\FileTest.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\bin\Debug\FileTest.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\obj\Debug\FileTest.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\obj\Debug\FileTest.FormFiles.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\obj\Debug\FileTest.MainForm.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\obj\Debug\FileTest.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\obj\Debug\FileTest.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\obj\Debug\FileTest.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\obj\Debug\FileTest.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\FileTest\obj\Debug\FileTest.pdb
