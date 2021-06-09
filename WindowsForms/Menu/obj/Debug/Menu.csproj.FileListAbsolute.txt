@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Menu\bin\Debug\Menu.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Menu\bin\Debug\Menu.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Menu\bin\Debug\Menu.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Menu\obj\Debug\Menu.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Menu\obj\Debug\Menu.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Menu\obj\Debug\Menu.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Menu\obj\Debug\Menu.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Menu\obj\Debug\Menu.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Menu\obj\Debug\Menu.MainForm.resources
