@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Notebook\bin\Debug\Notebook.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Notebook\bin\Debug\Notebook.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Notebook\bin\Debug\Notebook.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Notebook\obj\Debug\Notebook.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Notebook\obj\Debug\Notebook.Form1.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Notebook\obj\Debug\Notebook.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Notebook\obj\Debug\Notebook.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Notebook\obj\Debug\Notebook.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Notebook\obj\Debug\Notebook.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\Notebook\obj\Debug\Notebook.pdb

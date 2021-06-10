@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditApp", "TextEditApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTest", "FileTest\FileTest.csproj", "{C9F60180-68FC-4B09-AE9E-41332D56265E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{6526377B-A121-4266-AD96-75D52DB294C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notebook", "Notebook\Notebook.csproj", "{2105192A-1710-446D-8C89-3D3060752D88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{C9F60180-68FC-4B09-AE9E-41332D56265E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9F60180-68FC-4B09-AE9E-41332D56265E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9F60180-68FC-4B09-AE9E-41332D56265E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6526377B-A121-4266-AD96-75D52DB294C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6526377B-A121-4266-AD96-75D52DB294C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6526377B-A121-4266-AD96-75D52DB294C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6526377B-A121-4266-AD96-75D52DB294C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2105192A-1710-446D-8C89-3D3060752D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2105192A-1710-446D-8C89-3D3060752D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2105192A-1710-446D-8C89-3D3060752D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2105192A-1710-446D-8C89-3D3060752D88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
