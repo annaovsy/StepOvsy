@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,8 +23,18 @@ namespace GDI_Menu
             LineForm lineForm = new LineForm();
             if (lineForm.ShowDialog() == DialogResult.OK)
             {
+                Graphics g = this.CreateGraphics();
+                Pen bluePen = new Pen(Color.Blue, 6);
+                g.DrawLine(bluePen, 20, 100, 270, 100);
+                bluePen.Dispose();
+                g.Dispose();
 
             }
+        }
+
+        private void FormMenu_Paint(object sender, PaintEventArgs e)
+        {
+           
         }
     }
 }

@@ -69,6 +69,7 @@
             this.Name = "FormMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Меню";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormMenu_Paint);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);

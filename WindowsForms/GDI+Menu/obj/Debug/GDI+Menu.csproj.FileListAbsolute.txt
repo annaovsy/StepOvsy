@@ -8,3 +8,4 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GD
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.csproj.CoreCompileInputs.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.csprojAssemblyReference.cache

@@ -27,7 +27,7 @@ namespace GDI_Menu
 
         private void buttonOk_Click(object sender, EventArgs e)
         {
-            
+            DialogResult = DialogResult.OK;
         }
     }
 }
