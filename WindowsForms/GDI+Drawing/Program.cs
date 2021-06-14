@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TrackBar
+namespace GDI_Drawing
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace TrackBar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMenu());
+            Application.Run(new Form());
         }
     }
 }
