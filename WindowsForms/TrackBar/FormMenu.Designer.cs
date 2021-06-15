@@ -1,6 +1,6 @@
 ﻿namespace TrackBar
 {
-    partial class Form1
+    partial class FormMenu
     {
         /// <summary>
         /// Обязательная переменная конструктора.

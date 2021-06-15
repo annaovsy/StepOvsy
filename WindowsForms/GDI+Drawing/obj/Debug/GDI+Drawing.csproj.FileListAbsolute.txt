@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Drawing\bin\Debug\GDI+Drawing.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Drawing\bin\Debug\GDI+Drawing.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Drawing\bin\Debug\GDI+Drawing.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Drawing\obj\Debug\GDI+Drawing.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Drawing\obj\Debug\GDI_Drawing.Form.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Drawing\obj\Debug\GDI_Drawing.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Drawing\obj\Debug\GDI+Drawing.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Drawing\obj\Debug\GDI+Drawing.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Drawing\obj\Debug\GDI+Drawing.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Drawing\obj\Debug\GDI+Drawing.pdb
