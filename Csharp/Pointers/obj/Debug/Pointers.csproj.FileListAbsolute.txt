@@ -1,0 +1,7 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Pointers\bin\Debug\Pointers.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Pointers\bin\Debug\Pointers.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Pointers\bin\Debug\Pointers.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Pointers\obj\Debug\Pointers.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Pointers\obj\Debug\Pointers.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Pointers\obj\Debug\Pointers.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\Csharp\Pointers\obj\Debug\Pointers.pdb

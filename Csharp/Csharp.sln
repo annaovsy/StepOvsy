@@ -59,9 +59,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQtoXml", "LINQtoXml\LINQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{94A5C62C-0636-4D04-B003-46AD8BD222D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLib", "ClassLib\ClassLib.csproj", "{E0A792ED-0C5B-4A83-8BE0-31F4C64FE43E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLib", "ClassLib\ClassLib.csproj", "{E0A792ED-0C5B-4A83-8BE0-31F4C64FE43E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deserialization", "Deserialization\Deserialization.csproj", "{5F411E8D-F41D-48FF-AA7B-3ABD1DFFAAF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pointers", "Pointers\Pointers.csproj", "{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -433,6 +435,18 @@ Global
 		{5F411E8D-F41D-48FF-AA7B-3ABD1DFFAAF6}.Release|x64.Build.0 = Release|Any CPU
 		{5F411E8D-F41D-48FF-AA7B-3ABD1DFFAAF6}.Release|x86.ActiveCfg = Release|Any CPU
 		{5F411E8D-F41D-48FF-AA7B-3ABD1DFFAAF6}.Release|x86.Build.0 = Release|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Debug|x64.Build.0 = Debug|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Debug|x86.Build.0 = Debug|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Release|x64.ActiveCfg = Release|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Release|x64.Build.0 = Release|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Release|x86.ActiveCfg = Release|Any CPU
+		{CECC90AB-15ED-422E-BA6B-3DEE2047AD0C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

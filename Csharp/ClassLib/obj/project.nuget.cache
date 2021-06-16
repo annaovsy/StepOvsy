@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "b9bFtHTliG1N4/cEWJTtbhJEL55Aa/CeCcBtXC184SkQC5bJag+Go2HQclCrL+yZ57w8jo5SlfvQx4qYzCANRg==",
+  "dgSpecHash": "G3iU3dnPfsNlhpupZ1RslqhJnXXj9JttJ4bpE1tTpQYJLhkvwQR/W6i6HZoAHy4bD3a6vIF+61nSwjxmfDK7EA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj",
+  "projectFilePath": "C:\\Users\\Взрослая академия\\Source\\Repos\\StepOvsy\\Csharp\\ClassLib\\ClassLib.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Взрослая академия\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Взрослая академия\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
