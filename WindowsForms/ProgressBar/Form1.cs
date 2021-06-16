@@ -52,5 +52,9 @@ namespace ProgressBar
 
         }
 
+        private void labelVal_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
