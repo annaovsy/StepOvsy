@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\bin\Debug\GDI+Clock.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\bin\Debug\GDI+Clock.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\bin\Debug\GDI+Clock.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI_Clock.FormClock.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI_Clock.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.pdb
