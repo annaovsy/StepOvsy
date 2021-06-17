@@ -18,23 +18,17 @@ namespace GDI_Menu
             InitializeComponent();
         }
 
-        private void настройкаToolStripMenuItem_Click(object sender, EventArgs e)
+        private void tuningToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LineForm lineForm = new LineForm();
             if (lineForm.ShowDialog() == DialogResult.OK)
             {
                 Graphics g = this.CreateGraphics();
-                Pen bluePen = new Pen(Color.Blue, 6);
-                g.DrawLine(bluePen, 20, 100, 270, 100);
-                bluePen.Dispose();
+                Pen line = new Pen(lineForm.ColorLine, lineForm.Thickness);
+                g.DrawLine(line, 20, 100, 270, 100);
+                line.Dispose();
                 g.Dispose();
-
             }
-        }
-
-        private void FormMenu_Paint(object sender, PaintEventArgs e)
-        {
-           
         }
     }
 }
