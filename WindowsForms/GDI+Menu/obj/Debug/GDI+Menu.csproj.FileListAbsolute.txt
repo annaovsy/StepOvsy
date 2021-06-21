@@ -9,3 +9,18 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GD
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.pdb
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\bin\Debug\GDI+Menu.exe.config
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\bin\Debug\GDI+Menu.exe
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\bin\Debug\GDI+Menu.pdb
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormMenu.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.LineForm.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.Properties.Resources.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.csproj.GenerateResource.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.exe
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.pdb
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormSquare.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormRectangle.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormTriangle.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormEllipse.resources

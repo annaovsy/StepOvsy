@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace GDI_Menu
 {
-    public partial class LineForm : Form
+    public partial class FormSquare : Form
     {
         public Color ColorLine { get; set; }
 
@@ -19,7 +19,7 @@ namespace GDI_Menu
             get { return trackBarThickness.Value; }
         }
 
-        public LineForm()
+        public FormSquare()
         {
             InitializeComponent();
         }
@@ -33,26 +33,26 @@ namespace GDI_Menu
             this.Refresh();
         }
 
-        private void buttonOk_Click(object sender, EventArgs e)
-        {
-            DialogResult = DialogResult.OK;
-        }
-
-        private void LineForm_Paint(object sender, PaintEventArgs e)
-        {
-            Graphics g = this.CreateGraphics();
-            Pen line = new Pen(ColorLine, Thickness);
-            g.DrawLine(line, 70, 55, 250, 55);
-        }
-
         private void trackBarThickness_Scroll(object sender, EventArgs e)
         {
             this.Refresh();
         }
 
+        private void buttonOk_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.OK;
+        }
+
         private void buttonCancel_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
+        }
+
+        private void FormSquare_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics g = this.CreateGraphics();
+            Pen square = new Pen(ColorLine, Thickness);
+            g.DrawRectangle(square, 150, 25, 70, 70);
         }
     }
 }
