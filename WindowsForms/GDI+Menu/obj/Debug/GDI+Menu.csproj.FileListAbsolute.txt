@@ -20,3 +20,6 @@ C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.csp
 C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.csproj.CoreCompileInputs.cache
 C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.exe
 C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.pdb
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormSquare.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormRectangle.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormTriangle.resources

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace GDI_Menu
 {
-    public partial class LineForm : Form
+    public partial class FormTriangle : Form
     {
         public Color ColorLine { get; set; }
 
@@ -19,7 +19,7 @@ namespace GDI_Menu
             get { return trackBarThickness.Value; }
         }
 
-        public LineForm()
+        public FormTriangle()
         {
             InitializeComponent();
         }
@@ -27,7 +27,7 @@ namespace GDI_Menu
         private void trackBarRed_Scroll(object sender, EventArgs e)
         {
             Color clr = Color.FromArgb(trackBarRed.Value, trackBarGreen.Value,
-              trackBarBlue.Value);
+             trackBarBlue.Value);
             ColorLine = clr;
             this.Update();
             this.Refresh();
@@ -38,11 +38,9 @@ namespace GDI_Menu
             DialogResult = DialogResult.OK;
         }
 
-        private void LineForm_Paint(object sender, PaintEventArgs e)
+        private void buttonCancel_Click(object sender, EventArgs e)
         {
-            Graphics g = this.CreateGraphics();
-            Pen line = new Pen(ColorLine, Thickness);
-            g.DrawLine(line, 70, 55, 250, 55);
+            DialogResult = DialogResult.Cancel;
         }
 
         private void trackBarThickness_Scroll(object sender, EventArgs e)
@@ -50,9 +48,16 @@ namespace GDI_Menu
             this.Refresh();
         }
 
-        private void buttonCancel_Click(object sender, EventArgs e)
+        private void FormTriangle_Paint(object sender, PaintEventArgs e)
         {
-            DialogResult = DialogResult.Cancel;
+            Graphics g = this.CreateGraphics();
+
+            PointF point1 = new PointF(150, 60);
+            PointF point2 = new PointF(190, 30);
+            PointF point3 = new PointF(220, 80);
+
+            g.DrawLines(new Pen(ColorLine, Thickness), 
+                new[] { point1, point2, point3, point1 });
         }
     }
 }
