@@ -23,3 +23,4 @@ C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI+Menu.pdb
 C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormSquare.resources
 C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormRectangle.resources
 C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormTriangle.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Menu\obj\Debug\GDI_Menu.FormEllipse.resources

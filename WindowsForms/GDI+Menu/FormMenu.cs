@@ -63,12 +63,25 @@ namespace GDI_Menu
             if (formTriangle.ShowDialog() == DialogResult.OK)
             {
                 Graphics g = this.CreateGraphics();
-                PointF point1 = new PointF(300, 300);
-                PointF point2 = new PointF(340, 270);
-                PointF point3 = new PointF(370, 320);
+                PointF point1 = new PointF(300, 80);
+                PointF point2 = new PointF(340, 50);
+                PointF point3 = new PointF(370, 100);
                 g.DrawLines(new Pen(formTriangle.ColorLine, formTriangle.Thickness),
                     new[] { point1, point2, point3, point1 });
                
+                g.Dispose();
+            }
+        }
+
+        private void SettingEllipseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormEllipse formEllipse = new FormEllipse();
+            if (formEllipse.ShowDialog() == DialogResult.OK)
+            {
+                Graphics g = this.CreateGraphics();
+                Pen ellipse = new Pen(formEllipse.ColorLine, formEllipse.Thickness);
+                g.DrawEllipse(ellipse, 300, 150, 145, 60);
+                ellipse.Dispose();
                 g.Dispose();
             }
         }

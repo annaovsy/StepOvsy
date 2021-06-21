@@ -38,6 +38,9 @@
             this.SettingRectangleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.треугольникToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SettingTriangleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.эллипсToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.SettingEllipseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +52,9 @@
             this.квадратToolStripMenuItem,
             this.toolStripMenuItem1,
             this.прямоугольникToolStripMenuItem,
-            this.треугольникToolStripMenuItem});
+            this.треугольникToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.эллипсToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
@@ -83,7 +88,7 @@
             // SquareSettingToolStripMenuItem
             // 
             this.SquareSettingToolStripMenuItem.Name = "SquareSettingToolStripMenuItem";
-            this.SquareSettingToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.SquareSettingToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
             this.SquareSettingToolStripMenuItem.Text = "Настройка";
             this.SquareSettingToolStripMenuItem.Click += new System.EventHandler(this.SquareSettingToolStripMenuItem_Click);
             // 
@@ -103,7 +108,7 @@
             // SettingRectangleToolStripMenuItem
             // 
             this.SettingRectangleToolStripMenuItem.Name = "SettingRectangleToolStripMenuItem";
-            this.SettingRectangleToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.SettingRectangleToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
             this.SettingRectangleToolStripMenuItem.Text = "Настройка";
             this.SettingRectangleToolStripMenuItem.Click += new System.EventHandler(this.SettingRectangleToolStripMenuItem_Click);
             // 
@@ -122,11 +127,31 @@
             this.SettingTriangleToolStripMenuItem.Text = "Настройка";
             this.SettingTriangleToolStripMenuItem.Click += new System.EventHandler(this.SettingTriangleToolStripMenuItem_Click);
             // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(14, 24);
+            // 
+            // эллипсToolStripMenuItem
+            // 
+            this.эллипсToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.SettingEllipseToolStripMenuItem});
+            this.эллипсToolStripMenuItem.Name = "эллипсToolStripMenuItem";
+            this.эллипсToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            this.эллипсToolStripMenuItem.Text = "Эллипс";
+            // 
+            // SettingEllipseToolStripMenuItem
+            // 
+            this.SettingEllipseToolStripMenuItem.Name = "SettingEllipseToolStripMenuItem";
+            this.SettingEllipseToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.SettingEllipseToolStripMenuItem.Text = "Настройка";
+            this.SettingEllipseToolStripMenuItem.Click += new System.EventHandler(this.SettingEllipseToolStripMenuItem_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 554);
+            this.ClientSize = new System.Drawing.Size(687, 398);
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -152,6 +177,9 @@
         private System.Windows.Forms.ToolStripMenuItem SettingRectangleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem треугольникToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem SettingTriangleToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem эллипсToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem SettingEllipseToolStripMenuItem;
     }
 }
 
