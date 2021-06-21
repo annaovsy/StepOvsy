@@ -6,11 +6,33 @@
         xmlns:local="clr-namespace:Test"
         mc:Ignorable="d"
         Title="Первое приложение" Height="450" Width="800" WindowStartupLocation="CenterScreen">
-    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left">
-        <StackPanel Orientation="Horizontal">
+    <!--<StackPanel VerticalAlignment="Top" HorizontalAlignment="Left">-->
+    <!--<StackPanel Orientation="Horizontal">
             <Label Content="Имя"></Label>
             <TextBox Width="100"></TextBox>
         </StackPanel>        
-        <Button x:Name="TestButton" Margin="0,7,0,0">Кнопка</Button>
-    </StackPanel>
+        <Button x:Name="TestButton" Margin="0,7,0,0">Кнопка</Button>-->
+    <!--</StackPanel>-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Content="1"></Button>
+        <Button Content="2" Grid.Column="1"></Button>
+        <Button Content="3" Grid.Column="2"></Button>
+        <Button Content="4" Grid.Column="0" Grid.Row="1"></Button>
+        <Button Content="5" Grid.Column="1" Grid.Row="1"></Button>
+        <Button Content="6" Grid.Column="2" Grid.Row="1"></Button>
+        <Button Content="7" Grid.Column="0" Grid.Row="2"></Button>
+        <Button Content="8" Grid.Column="1" Grid.Row="2"></Button>
+        <Button Content="9" Grid.Column="2" Grid.Row="2"></Button>
+
+    </Grid>
 </Window>
