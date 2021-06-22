@@ -40,6 +40,38 @@ namespace GDI_Clock
             e.Graphics.FillEllipse(Brushes.Black, -5, -5, 10, 10);
 
             DrawClockHand(graph);
+            DrawClockNumeric(graph);
+        }
+
+        private void DrawClockNumeric(Graphics gr)
+        {
+            float outer_x_factor = 0.45f * pictureBoxClock.Width;
+            float outer_y_factor = 0.45f * pictureBoxClock.Height;
+            float inner_x_factor = 0.425f * pictureBoxClock.Width;
+            float inner_y_factor = 0.425f * pictureBoxClock.Height;
+            float big_x_factor = 0.4f * pictureBoxClock.Width;
+            float big_y_factor = 0.4f * pictureBoxClock.Height;
+
+            for (int i = 0; i <= 360; i += 6)
+            {
+                double angle = i * Math.PI / 180;
+                float cos_angle = (float)Math.Cos(angle);
+                float sin_angle = (float)Math.Sin(angle);
+                PointF outer_pt = new PointF(
+                    outer_x_factor * cos_angle,
+                    outer_y_factor * sin_angle);
+                    if (i % 5 == 0)
+                    {
+                        Font f = new Font("TimesNewRoman", 14, FontStyle.Bold);
+                        PointF inner_pt = new PointF(
+                            big_x_factor * cos_angle,
+                            big_y_factor * sin_angle);
+                        gr.DrawString("5", f, Brushes.Blue, inner_pt);
+                    }
+                
+                
+            }
+
         }
 
         private void DrawClockFace(Graphics gr)
