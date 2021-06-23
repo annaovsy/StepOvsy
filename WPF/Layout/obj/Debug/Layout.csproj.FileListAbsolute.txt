@@ -1,0 +1,15 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\bin\Debug\Layout.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\bin\Debug\Layout.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\bin\Debug\Layout.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\MainWindow.g.cs
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\App.g.cs
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout_MarkupCompile.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout_MarkupCompile.lref
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\MainWindow.baml
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout.g.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout.pdb
