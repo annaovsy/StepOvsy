@@ -8,3 +8,13 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GD
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.csproj.CoreCompileInputs.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.pdb
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Clock\bin\Debug\GDI+Clock.exe.config
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Clock\bin\Debug\GDI+Clock.exe
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Clock\bin\Debug\GDI+Clock.pdb
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI_Clock.FormClock.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI_Clock.Properties.Resources.resources
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.csproj.GenerateResource.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.exe
+C:\Users\user\Source\Repos\StepOvsy\WindowsForms\GDI+Clock\obj\Debug\GDI+Clock.pdb
