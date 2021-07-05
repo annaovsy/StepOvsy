@@ -1,0 +1,75 @@
+﻿<Window x:Class="Keyboard_Trainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Keyboard_Trainer"
+        mc:Ignorable="d"
+        Title="Keyboard Trainer" Height="450" Width="843.763">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label>Speed:</Label>
+            <Label x:Name="speed" FontWeight="Bold">118</Label>
+            <Label>chars/min</Label>
+            <Label Margin="45,0,0,0">Fails:</Label>
+            <Label Name="fails" FontWeight="Bold">7</Label>
+            <Label Margin="100,0,0,0" Content="Difficulty:"/>
+            <Label x:Name="difficulty" FontWeight="Bold" Content="5"/>
+            <Slider Grid.Row="1" Width="100" Maximum="10" TickFrequency="1" TickPlacement="BottomRight" Value="10"/>
+            <RadioButton Margin="55,5,0,0" Content="Case Sensitive"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Width="214">
+            <Button Content="Start" Width="100"/>
+            <Button Margin="5,0,0,0" Content="Stop"  Width="100"/>
+        </StackPanel>
+        <TextBox Height="25"></TextBox>
+        <TextBox Height="25"></TextBox>
+        <StackPanel Height="45" Orientation="Horizontal">
+            <Button Margin="3" Width="50" Content="`"></Button>
+            <Button Margin="3" Width="50" Content="1"></Button>
+            <Button Margin="3" Width="50" Content="2"></Button>
+            <Button Margin="3" Width="50" Content="3"></Button>
+            <Button Margin="3" Width="50" Content="4"></Button>
+            <Button Margin="3" Width="50" Content="5"></Button>
+            <Button Margin="3" Width="50" Content="6"></Button>
+            <Button Margin="3" Width="50" Content="7"></Button>
+            <Button Margin="3" Width="50" Content="8"></Button>
+            <Button Margin="3" Width="50" Content="9"></Button>
+            <Button Margin="3" Width="50" Content="0"></Button>
+            <Button Margin="3" Width="50" Content="-"></Button>
+            <Button Margin="3" Width="50" Content="="></Button>
+            <Button Margin="3" Width="100" Content="Backspace"></Button>
+        </StackPanel>
+        <StackPanel Height="45" Orientation="Horizontal">
+            <Button Margin="3" Width="75" Content="Tab"></Button>
+            <Button Margin="3" Width="50" Content="q"></Button>
+            <Button Margin="3" Width="50" Content="w"></Button>
+            <Button Margin="3" Width="50" Content="e"></Button>
+            <Button Margin="3" Width="50" Content="r"></Button>
+            <Button Margin="3" Width="50" Content="t"></Button>
+            <Button Margin="3" Width="50" Content="y"></Button>
+            <Button Margin="3" Width="50" Content="u"></Button>
+            <Button Margin="3" Width="50" Content="i"></Button>
+            <Button Margin="3" Width="50" Content="o"></Button>
+            <Button Margin="3" Width="50" Content="p"></Button>
+            <Button Margin="3" Width="50" Content="["></Button>
+            <Button Margin="3" Width="50" Content="]"></Button>
+            <Button Margin="3" Width="75" Content="\"></Button>
+        </StackPanel>
+        <StackPanel Height="45" Orientation="Horizontal">
+            <Button Margin="3" Width="100" Content="CapsLock"></Button>
+            <Button Margin="3" Width="50" Content="a"></Button>
+            <Button Margin="3" Width="50" Content="s"></Button>
+            <Button Margin="3" Width="50" Content="d"></Button>
+            <Button Margin="3" Width="50" Content="f"></Button>
+            <Button Margin="3" Width="50" Content="g"></Button>
+            <Button Margin="3" Width="50" Content="h"></Button>
+            <Button Margin="3" Width="50" Content="j"></Button>
+            <Button Margin="3" Width="50" Content="k"></Button>
+            <Button Margin="3" Width="50" Content="l"></Button>
+            <Button Margin="3" Width="50" Content=";"></Button>
+            <Button Margin="3" Width="50" Content="'"></Button>
+            <Button Margin="3" Width="106" Content="Enter"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
