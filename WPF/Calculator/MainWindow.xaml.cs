@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data;
 
 namespace Calculator
 {
@@ -20,17 +21,53 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        public double Num { get; set; } 
+        public string Num { get; set; } 
+        public string Result { get; set; }
         public MainWindow()
         {
             InitializeComponent();
+
+            foreach(UIElement element in MainGrid.Children)
+            {
+                if(element is Button)
+                {
+                    ((Button)element).Click += Button_Click;
+                }
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Button btn = sender as Button;
-            TextFirst.Text = btn.Content.ToString();
-            //Num = this.Content;
+            Num = (string)((Button)e.OriginalSource).Content;
+            if (Num == "C")
+            {
+                TextFirst.Text = "";
+            }
+            else if (Num == "CE")
+            {
+                TextFirst.Text = "";
+                TextSecond.Text = "";
+            }
+            else if (Num == "<")
+            {
+                if (TextFirst.Text.Length != 0)
+                {
+                    TextFirst.Text = TextFirst.Text.Remove(TextFirst.Text.Length - 1);
+                }
+            }
+            else if (Num == "=")
+            {
+                TextSecond.Text = TextFirst.Text + "=";
+                Result = new DataTable().Compute(TextFirst.Text, null).ToString();
+                TextFirst.Text = Result;
+            }
+            else
+            {
+                TextFirst.Text += Num;
+            }
+         
+
+           
         }
     }
 }
