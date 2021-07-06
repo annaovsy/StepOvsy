@@ -1,0 +1,15 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\bin\Debug\Keyboard Trainer.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\bin\Debug\Keyboard Trainer.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\bin\Debug\Keyboard Trainer.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\Keyboard Trainer.csprojAssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\MainWindow.g.cs
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\App.g.cs
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\Keyboard Trainer_MarkupCompile.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\Keyboard Trainer_MarkupCompile.lref
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\MainWindow.baml
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\Keyboard Trainer.g.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\Keyboard_Trainer.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\Keyboard Trainer.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\Keyboard Trainer.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\Keyboard Trainer.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Keyboard Trainer\obj\Debug\Keyboard Trainer.pdb
