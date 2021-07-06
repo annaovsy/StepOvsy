@@ -43,7 +43,7 @@ namespace Calculator
             {
                 TextFirst.Text = "";
             }
-            else if (Num == "CE")
+            else if (Num == "CE") 
             {
                 TextFirst.Text = "";
                 TextSecond.Text = "";
