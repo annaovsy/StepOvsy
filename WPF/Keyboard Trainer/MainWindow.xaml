@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Keyboard_Trainer"
         mc:Ignorable="d"
-        Title="Keyboard Trainer" Height="368.183" Width="850.155" WindowStartupLocation="CenterScreen">
-    <StackPanel Margin="0,0,0,2">
+        Title="Keyboard Trainer" Height="450" Width="843.763">
+    <StackPanel>
         <StackPanel Orientation="Horizontal">
             <Label>Speed:</Label>
             <Label x:Name="speed" FontWeight="Bold">118</Label>
@@ -22,8 +22,8 @@
             <Button Content="Start" Width="100"/>
             <Button Margin="5,0,0,0" Content="Stop"  Width="100"/>
         </StackPanel>
-        <TextBox SelectionBrush="#FF3BA8B9" BorderBrush="#FF3BA8B9" Margin="0,5,0,0" Height="25" Background="#FF3BA8B9"></TextBox>
-        <TextBox SelectionBrush="#FF3BA8B9" BorderBrush="#FF3BA8B9" Height="25" Background="#FF3BA8B9"/>
+        <TextBox Margin="0,5,0,0" Height="25"></TextBox>
+        <TextBox Height="25"></TextBox>
         <StackPanel Height="45" Orientation="Horizontal">
             <Button Margin="3" Width="50" Content="`"></Button>
             <Button Margin="3" Width="50" Content="1"></Button>
@@ -70,29 +70,6 @@
             <Button Margin="3" Width="50" Content=";"></Button>
             <Button Margin="3" Width="50" Content="'"></Button>
             <Button Margin="3" Width="106" Content="Enter"></Button>
-        </StackPanel>
-        <StackPanel Height="45" Orientation="Horizontal">
-            <Button Margin="3" Width="131" Content="Shift"></Button>
-            <Button Margin="3" Width="50" Content="z"></Button>
-            <Button Margin="3" Width="50" Content="x"></Button>
-            <Button Margin="3" Width="50" Content="c"></Button>
-            <Button Margin="3" Width="50" Content="v"></Button>
-            <Button Margin="3" Width="50" Content="b"></Button>
-            <Button Margin="3" Width="50" Content="n"></Button>
-            <Button Margin="3" Width="50" Content="m"></Button>
-            <Button Margin="3" Width="50" Content=","></Button>
-            <Button Margin="3" Width="50" Content="."></Button>
-            <Button Margin="3" Width="50" Content="/"></Button>
-            <Button Margin="3" Width="131" Content="Shift"></Button>
-        </StackPanel>
-        <StackPanel Height="45" Orientation="Horizontal">
-            <Button Margin="3" Width="70" Content="Ctrl"></Button>
-            <Button Margin="3" Width="70" Content="Win"></Button>
-            <Button Margin="3" Width="70" Content="Alt"></Button>
-            <Button Margin="3" Width="372" Content="Space"></Button>
-            <Button Margin="3" Width="70" Content="Alt"></Button>
-            <Button Margin="3" Width="70" Content="Win"></Button>
-            <Button Margin="3" Width="70" Content="Ctrl"></Button>
         </StackPanel>
     </StackPanel>
 </Window>
