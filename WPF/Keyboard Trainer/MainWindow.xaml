@@ -22,7 +22,7 @@
             <Button Content="Start" Width="100"/>
             <Button Margin="5,0,0,0" Content="Stop"  Width="100"/>
         </StackPanel>
-        <TextBox Height="25"></TextBox>
+        <TextBox Margin="0,5,0,0" Height="25"></TextBox>
         <TextBox Height="25"></TextBox>
         <StackPanel Height="45" Orientation="Horizontal">
             <Button Margin="3" Width="50" Content="`"></Button>
