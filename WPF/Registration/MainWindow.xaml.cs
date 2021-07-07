@@ -13,34 +13,28 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ResourcesAndStyle
+namespace Registration
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        Phone testPhone;
+        Person person;
         public MainWindow()
         {
             InitializeComponent();
-            testPhone = new Phone
-            {
-                Company = "Google",
-                Title = "Samsung",
-                Price = 35000
-            };
-            mainGrid.DataContext = testPhone;
+            person = new Person();
+            mainStackPanel.DataContext = person;
         }
 
-        private void ButtonChangePrice(object sender, RoutedEventArgs e)
+        private void ButtonSignUp_Click(object sender, RoutedEventArgs e)
         {
-            testPhone.Price += 1000;
-        }
-
-        private void ShowBtn_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show($"Название: {testPhone.Title} Цена: {testPhone.Price}");
+            MessageBox.Show($"Username: {person.Username} " +
+                $"Password: {person.Password} " +
+                $"Email: {person.Email} " +
+                $"ConfirmEmail: {person.ConfirmEmail} " +
+                $"Birthday: {person.Birthday}");
         }
     }
 }

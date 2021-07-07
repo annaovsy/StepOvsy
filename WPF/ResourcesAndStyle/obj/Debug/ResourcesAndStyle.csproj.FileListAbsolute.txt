@@ -15,3 +15,4 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAn
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\obj\Debug\ResourcesAndStyle.pdb
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\obj\Debug\App.baml
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\obj\Debug\Resourses.baml
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\obj\Debug\GeneratedInternalTypeHelper.g.cs

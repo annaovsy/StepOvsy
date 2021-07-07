@@ -32,5 +32,6 @@
             </MultiTrigger>
         </Style.Triggers>
     </Style>
-    
+
+    <local:Phone x:Key="nexusPhone" Title="Nexus XS" Company="Google" Price="35000"/>
 </ResourceDictionary>
