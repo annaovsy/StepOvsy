@@ -97,7 +97,7 @@ namespace Inheritanse
     {
         static void Main(string[] args)
         {
-            /* Human empl = new Employee("Иванов", "Иван", new DateTime(1996, 05, 23), 20000);
+            /*Human empl = new Employee("Иванов", "Иван", new DateTime(1996, 05, 23), 20000);
              Employee manager = new Manager("Петров", "Петр", new DateTime(1997, 06, 23), 35000, "Продукты питания");
 
              Human[] empls = new Human[]
