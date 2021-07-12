@@ -1,0 +1,23 @@
+﻿<Window x:Class="TestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="306.751" Width="574.256" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="mainGrid" Height="250" Width="570" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Параметр" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Grid.Column="1" Height="70" Width="200" Text="{Binding FactorTest}"/>
+        <Button x:Name="increaseBtn" Content="Увеличить в 2 раза" Grid.Row="1" Height="70" Width="200" FontSize="15" Click="increaseBtn_Click"/>
+        <Button x:Name="checkBtn" Content="Проверить" Grid.Row="1" Grid.Column="1" Height="70" Width="200" FontSize="15" Click="checkBtn_Click"/>
+    </Grid>
+</Window>
