@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Keyboard_Trainer">
+    <Style x:Key="font">
+        <Setter Property="Control.FontFamily" Value="Calibri Light"/>
+        <Setter Property="Control.FontSize" Value="14"/>
+    </Style>
+    <Style x:Key="btnPink" TargetType="Button">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Background" Value="Pink"/>
+    </Style> 
+</ResourceDictionary>

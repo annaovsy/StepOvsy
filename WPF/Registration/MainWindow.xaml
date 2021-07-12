@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Registration"
         mc:Ignorable="d"
-        Title="MainWindow" Height="461.416" Width="434.672">
-    <StackPanel x:Name="mainStackPanel">
+        Title="Registration" Height="397.416" Width="434.672" WindowStartupLocation="CenterScreen">
+    <StackPanel x:Name="mainStackPanel" Margin="0,0,0,2">
         <TextBlock Margin="15" HorizontalAlignment="Center" Text="Sign up with your email address" FontWeight="Bold" FontSize="16"/>
-        <TextBox Text="{Binding Username}"/>
-        <TextBox Text="{Binding Password}"/>
-        <TextBox Text="{Binding Email}"/>
-        <TextBox Text="{Binding ConfirmEmail}"/>
-        <DatePicker Text="{Binding Birthday}"/>
-        <Button Content="SignUp" Click="ButtonSignUp_Click"/>
+        <TextBox Style="{StaticResource textBox}" Text="{Binding Username}"/>
+        <TextBox Style="{StaticResource textBox}" Text="{Binding Password}"/>
+        <TextBox Style="{StaticResource textBox}" Text="{Binding Email}"/>
+        <TextBox Style="{StaticResource textBox}" Text="{Binding ConfirmEmail}"/>
+        <DatePicker Style="{StaticResource textBox}" Text="{Binding Birthday}"/>
+        <Button Content="SIGN UP" Style="{StaticResource signInBtn}" Click="ButtonSignUp_Click"/>
 
     </StackPanel>
 </Window>
