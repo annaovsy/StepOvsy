@@ -27,3 +27,4 @@ C:\Users\user\Source\Repos\StepOvsy\WPF\Calculator\obj\Debug\Calculator.csproj.G
 C:\Users\user\Source\Repos\StepOvsy\WPF\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\user\Source\Repos\StepOvsy\WPF\Calculator\obj\Debug\Calculator.exe
 C:\Users\user\Source\Repos\StepOvsy\WPF\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache

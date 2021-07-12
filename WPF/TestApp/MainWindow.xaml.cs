@@ -20,22 +20,21 @@ namespace TestApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        FactorClass factor;
+        public static FactorClass factorC = new FactorClass();
         public MainWindow()
         {
             InitializeComponent();
-            factor = new FactorClass();
-            mainGrid.DataContext = factor;
+            mainGrid.DataContext = factorC;
         }
 
         private void checkBtn_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"{factor.FactorTest}");
+            MessageBox.Show($"{factorC.FactorTest}");
         }
 
         private void increaseBtn_Click(object sender, RoutedEventArgs e)
         {
-            factor.FactorTest *= 2;
+            factorC.FactorTest *= 2;
         }
     }
 }

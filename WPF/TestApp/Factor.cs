@@ -7,11 +7,11 @@ using System.ComponentModel;
 
 namespace TestApp
 {
-    class FactorClass : INotifyPropertyChanged
+    public class FactorClass : INotifyPropertyChanged
     {
-        private double _factor;
+        private float _factor;
 
-        public double FactorTest
+        public float FactorTest
         {
             get { return _factor; }
             set

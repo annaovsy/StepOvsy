@@ -6,6 +6,15 @@
         xmlns:local="clr-namespace:TestApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="306.751" Width="574.256" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
     <Grid x:Name="mainGrid" Height="250" Width="570" VerticalAlignment="Center">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -14,9 +23,20 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
-        </Grid.RowDefinitions>
+        </Grid.RowDefinitions>        
         <TextBlock Text="Параметр" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <TextBox Grid.Column="1" Height="70" Width="200" Text="{Binding FactorTest}"/>
+        <TextBox Grid.Column="1" Height="70" Width="200">
+            <TextBox.Text>
+                <Binding Path="FactorTest" Mode="TwoWay" NotifyOnValidationError="True">
+                    <Binding.Converter>
+                        <local:StringToFloatConvert/>
+                    </Binding.Converter>
+                    <!--<Binding.ValidationRules>
+                        <local:ValidationFactor Min="0" Max="1"/>
+                    </Binding.ValidationRules>-->
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
         <Button x:Name="increaseBtn" Content="Увеличить в 2 раза" Grid.Row="1" Height="70" Width="200" FontSize="15" Click="increaseBtn_Click"/>
         <Button x:Name="checkBtn" Content="Проверить" Grid.Row="1" Grid.Column="1" Height="70" Width="200" FontSize="15" Click="checkBtn_Click"/>
     </Grid>

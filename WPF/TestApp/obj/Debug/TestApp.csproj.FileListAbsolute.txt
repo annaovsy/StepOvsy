@@ -1,7 +1,6 @@
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\bin\Debug\TestApp.exe.config
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\bin\Debug\TestApp.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\bin\Debug\TestApp.pdb
-C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\obj\Debug\MainWindow.g.cs
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\obj\Debug\App.g.cs
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\obj\Debug\TestApp_MarkupCompile.cache
@@ -13,3 +12,5 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\obj
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\obj\Debug\TestApp.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\obj\Debug\TestApp.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache

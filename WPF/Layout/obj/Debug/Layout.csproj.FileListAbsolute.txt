@@ -13,3 +13,4 @@ C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout.csproj.CoreCompileInputs.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\Layout.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Layout\obj\Debug\StackPanel.g.cs
