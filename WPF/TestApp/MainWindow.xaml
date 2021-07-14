@@ -23,21 +23,33 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>        
         <TextBlock Text="Параметр" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBox Grid.Column="1" Height="70" Width="200">
             <TextBox.Text>
-                <Binding Path="FactorTest" Mode="TwoWay" NotifyOnValidationError="True">
+                <Binding Path="FactorTest" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
                     <Binding.Converter>
                         <local:StringToFloatConvert/>
                     </Binding.Converter>
-                    <!--<Binding.ValidationRules>
+                    <Binding.ValidationRules>
                         <local:ValidationFactor Min="0" Max="1"/>
-                    </Binding.ValidationRules>-->
+                    </Binding.ValidationRules>
                 </Binding>
             </TextBox.Text>
         </TextBox>
-        <Button x:Name="increaseBtn" Content="Увеличить в 2 раза" Grid.Row="1" Height="70" Width="200" FontSize="15" Click="increaseBtn_Click"/>
-        <Button x:Name="checkBtn" Content="Проверить" Grid.Row="1" Grid.Column="1" Height="70" Width="200" FontSize="15" Click="checkBtn_Click"/>
+        <TextBox Grid.Column="1" Grid.Row="1" Height="70" Width="200" >
+            <TextBox.Text>
+                <Binding Path="PointsTransform" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.Converter>
+                        <local:PointsToStringConverter/>
+                    </Binding.Converter>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <TextBlock Text="(X1;Y1) (X2;Y2) (X3;Y3) (X4;Y4)" Grid.Column="0" Grid.Row="1" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Button x:Name="increaseBtn" Content="Увеличить в 2 раза" Grid.Row="2" Height="70" Width="200" FontSize="15" Click="increaseBtn_Click"/>
+        <Button x:Name="checkBtn" Content="Проверить" Grid.Row="2" Grid.Column="1" Height="70" Width="200" FontSize="15" Click="checkBtn_Click"/>
     </Grid>
 </Window>

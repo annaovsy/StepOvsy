@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="PointsToStringConverter.cs" />
     <Compile Include="StringToFloatConvert.cs" />
     <Compile Include="ValidationFactor.cs" />
     <Page Include="MainWindow.xaml">

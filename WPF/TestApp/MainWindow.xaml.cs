@@ -24,6 +24,14 @@ namespace TestApp
         public MainWindow()
         {
             InitializeComponent();
+            var points = new Point[4]
+            {
+                new Point(10,20),
+                new Point(15,25),
+                new Point(20,30),
+                new Point(1,7)
+            };
+            factorC.PointsTransform = points;
             mainGrid.DataContext = factorC;
         }
 
