@@ -1,0 +1,15 @@
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\bin\Debug\Templates.exe.config
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\bin\Debug\Templates.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\bin\Debug\Templates.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\MainWindow.g.cs
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\App.g.cs
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\Templates_MarkupCompile.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\Templates_MarkupCompile.lref
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\MainWindow.baml
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\Templates.g.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\Templates.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\Templates.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\Templates.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\Templates.exe
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\Templates.pdb
+C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Templates\obj\Debug\Templates.csprojAssemblyReference.cache

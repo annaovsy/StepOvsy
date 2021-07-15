@@ -1,7 +1,6 @@
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\bin\Debug\ResourcesAndStyle.exe.config
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\bin\Debug\ResourcesAndStyle.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\bin\Debug\ResourcesAndStyle.pdb
-C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\obj\Debug\ResourcesAndStyle.csprojAssemblyReference.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\obj\Debug\MainWindow.g.cs
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\obj\Debug\App.g.cs
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\ResourcesAndStyle\obj\Debug\ResourcesAndStyle_MarkupCompile.cache

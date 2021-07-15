@@ -27,7 +27,6 @@ namespace Layout
 
         private void buttonTest_Click(object sender, RoutedEventArgs e)
         {
-            Message
         }
     }
 }

@@ -1,7 +1,6 @@
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Test\bin\Debug\Test.exe.config
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Test\bin\Debug\Test.exe
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Test\bin\Debug\Test.pdb
-C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Test\obj\Debug\Test.csprojAssemblyReference.cache
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Test\obj\Debug\MainWindow.g.cs
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Test\obj\Debug\App.g.cs
 C:\Users\Взрослая академия\source\repos\StepOvsy\WPF\Test\obj\Debug\Test_MarkupCompile.cache
